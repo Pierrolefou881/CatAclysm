@@ -1,8 +1,14 @@
 namespace CatAclysm.Character.Builder
 {
-    public abstract class CharacterBuilderBase
+    public class CharacterBuilderBase
     {
-        protected CharacterSheet characterSheet = new();
+        private readonly CharacterSheet characterSheet = new();
+
+        public CharacterBuilderBase SetBaseStats(BaseStats stats) 
+        {
+            characterSheet.BaseStats = stats;
+            return this;
+        }
 
         public CharacterSheet BuildCharacter() => characterSheet;
     }
