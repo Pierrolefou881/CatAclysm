@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
-  m_Name: Talent
+  m_Script: {fileID: 11500000, guid: 1d02f1467c829cc44b8208d70ccef278, type: 3}
+  m_Name: Curieux
   m_EditorClassIdentifier: 
-  talentName: 
-  description: 
-  row: 0

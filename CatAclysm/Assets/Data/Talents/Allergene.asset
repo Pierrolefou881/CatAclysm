@@ -9,6 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e06228f7eeed0774394c02a248b69c5a, type: 3}
-  m_Name: Quality
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Allergene
   m_EditorClassIdentifier: 
+  talentName: 
+  description: 
+  row: 0
