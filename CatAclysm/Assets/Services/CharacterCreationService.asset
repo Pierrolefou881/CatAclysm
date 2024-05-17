@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 241f7e57feedd2f46aedb51aa51afed8, type: 3}
-  m_Name: European
+  m_Script: {fileID: 11500000, guid: 4433dcde5bfd9ec46838fc4bdd41ce17, type: 3}
+  m_Name: CharacterCreationService
   m_EditorClassIdentifier: 
-  breedName: European
+  characterAttributesLibrary: {fileID: 0}
+  theCat: {fileID: 0}

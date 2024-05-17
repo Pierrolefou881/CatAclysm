@@ -22,15 +22,15 @@ MonoBehaviour:
   faction: 
   qualities: []
   drawbacks: []
-  griffe: 1
-  poil: 1
-  oeil: 1
-  queue: 1
-  caresse: 1
-  ronronnement: 1
-  coussinet: 3
-  vibrisse: 2
-  luck: 2
+  griffe: 2
+  poil: 3
+  oeil: 4
+  queue: 5
+  caresse: 4
+  ronronnement: 3
+  coussinet: 2
+  vibrisse: 1
+  luck: 1
   skills:
   - {fileID: 0}
   talents: []

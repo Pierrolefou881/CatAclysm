@@ -190,5 +190,34 @@ namespace CatAclysm.Character
         private List<Talent> talents = new();
 
         #endregion
+
+        #region Public methods
+
+        public void Init(HashSet<Skill> skills)
+        {
+            CatName = string.Empty;
+            NickName = string.Empty;
+            Age = 7;
+            Portrait = null;
+            Breed = null;
+            Lineage = string.Empty;
+            Reputation = 0;
+            Faction = string.Empty;
+            Griffe = 1;
+            Poil = 1;
+            Oeil = 1;
+            Queue = 1;
+            Caresse = 1;
+            Ronronnement = 1;
+            Coussinet = 1;
+            Vibrisse = 1;
+            Luck = 1;
+            Qualities = new();
+            Drawbacks = new();
+            Talents = new();
+            // Skills
+        }
+
+        #endregion
     }
 }

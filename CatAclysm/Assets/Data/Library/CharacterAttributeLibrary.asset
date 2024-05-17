@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cd59995d6c763c48be0c12ca018d425, type: 3}
+  m_Name: CharacterAttributeLibrary
+  m_EditorClassIdentifier: 
+  namePrefixes:
+  - a
+  - b
+  nameSuffixes:
+  - c
+  - d
+  lineagePrefixes:
+  - Dents
+  - Crocs
+  lineageSuffixes:
+  - Agile
+  - Touffue
+  factions:
+  - Destructeurs
+  qualities:
+  - {fileID: 11400000, guid: 1064a6e4b0a508d4b9450f28985e05c0, type: 2}
+  drawbacks:
+  - {fileID: 11400000, guid: 7a2b93d5d15560c48b467f8a8e0fa150, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 7f38f540a20092f449910984eea82679, type: 2}
+  talents:
+  - {fileID: 11400000, guid: f7122bb18dfcdf0418ffa8f8fd53c0e2, type: 2}
