@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cb509c2eeeb56e499ab12eeca19c09c, type: 3}
+  m_Name: Terton
+  m_EditorClassIdentifier: 
+  catName: 
+  nickName: Terton
+  age: 1
+  portrait: {fileID: 0}
+  breed: {fileID: 11400000, guid: 6a0e7f1e7b421ab4e9f2ada7006a9d4d, type: 2}
+  lineage: 
+  reputation: 0
+  faction: 
+  qualities: []
+  drawbacks: []
+  griffe: 1
+  poil: 1
+  oeil: 1
+  queue: 1
+  caresse: 1
+  ronronnement: 1
+  coussinet: 3
+  vibrisse: 2
+  luck: 2
+  skills:
+  - {fileID: 0}
+  talents: []
