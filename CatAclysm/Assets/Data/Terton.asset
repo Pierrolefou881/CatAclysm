@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-229940919755718462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  baseSkill: 0
+  row: 0
+  primaryCharacteristics: 0
+  secondaryCharacteristics: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,25 +28,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb509c2eeeb56e499ab12eeca19c09c, type: 3}
   m_Name: Terton
   m_EditorClassIdentifier: 
-  catName: 
-  nickName: Terton
-  age: 1
+  catName: Gra Waou
+  nickName: 
+  age: 7
   portrait: {fileID: 0}
-  breed: {fileID: 11400000, guid: 6a0e7f1e7b421ab4e9f2ada7006a9d4d, type: 2}
-  lineage: 
+  breed: {fileID: 0}
+  lineage: "Cou tachet\xE9"
   reputation: 0
   faction: 
   qualities: []
   drawbacks: []
-  griffe: 2
-  poil: 3
-  oeil: 4
-  queue: 5
-  caresse: 4
-  ronronnement: 3
-  coussinet: 2
+  griffe: 1
+  poil: 1
+  oeil: 1
+  queue: 1
+  caresse: 1
+  ronronnement: 1
+  coussinet: 1
   vibrisse: 1
   luck: 1
   skills:
-  - {fileID: 0}
+  - {fileID: -229940919755718462}
   talents: []
+  remainingBaseStatPoints: 0

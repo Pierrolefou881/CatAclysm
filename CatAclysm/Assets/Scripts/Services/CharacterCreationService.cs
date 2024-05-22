@@ -23,7 +23,7 @@ namespace CatAclysm.Services
         }
 
         [ContextMenu("Create new cat")]
-        private void InitCat()
+        public void InitCat()
         { 
             theCat.Init(characterAttributesLibrary.Skills, GenerateName(), GenerateLineage(), characterCreationPointsCapital);
         }
