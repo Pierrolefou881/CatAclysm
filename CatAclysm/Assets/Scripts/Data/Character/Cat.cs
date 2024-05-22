@@ -1,3 +1,5 @@
+using CatAclysm.Events;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEditor;
@@ -5,6 +7,19 @@ using UnityEngine;
 
 namespace CatAclysm.Character
 {
+    public enum Characteristics
+    {
+        None,
+        Griffe,
+        Poil,
+        Oeil,
+        Queue,
+        Caresse,
+        Ronronnement,
+        Coussinet,
+        Vibirisse
+    }
+
     [CreateAssetMenu(fileName = "Cat", menuName = "Data/Cats")]
     public class Cat : ScriptableObject
     {
@@ -13,7 +28,14 @@ namespace CatAclysm.Character
         public string CatName
         {
             get => catName;
-            set => catName = value;
+            set 
+            {
+                if (catName != value)
+                {
+                    catName = value;
+                    NameChanged?.Invoke(this, new StringEventArgs(catName));
+                }
+            }
         }
         [SerializeField]
         private string catName;
@@ -94,7 +116,16 @@ namespace CatAclysm.Character
         public int Griffe
         { 
             get => griffe;
-            set => griffe = value;
+            set
+            { 
+                if (griffe  != value) 
+                {
+                    var delta = griffe - value;
+                    griffe = value;
+                    GriffeChanged?.Invoke(this, new IntEventArgs(griffe));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Header("Physical Attributes")]
         [Range(1, 5)]
@@ -104,7 +135,16 @@ namespace CatAclysm.Character
         public int Poil
         {
             get => poil;
-            set => poil = value;
+            set
+            { 
+                if (poil != value) 
+                {
+                    var delta = poil - value;
+                    poil = value;
+                    PoilChanged?.Invoke(this, new IntEventArgs(poil));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Range(1, 5)]
         [SerializeField]
@@ -113,7 +153,16 @@ namespace CatAclysm.Character
         public int Oeil
         {
             get => oeil;
-            set => oeil = value;
+            set
+            {
+                if (oeil != value)
+                { 
+                    var delta = oeil - value;
+                    oeil = value;
+                    OeilChanged?.Invoke(this, new IntEventArgs(oeil));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Range(1, 5)]
         [SerializeField]
@@ -122,7 +171,16 @@ namespace CatAclysm.Character
         public int Queue
         { 
             get => queue;
-            set => queue = value;
+            set
+            {
+                if (queue != value)
+                { 
+                    var delta = queue - value;
+                    queue = value;
+                    QueueChanged?.Invoke(this, new IntEventArgs(queue));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Range(1, 5)]
         [SerializeField]
@@ -131,7 +189,16 @@ namespace CatAclysm.Character
         public int Caresse
         {
             get => caresse;
-            set => caresse = value;
+            set 
+            {
+                if (caresse != value)
+                {
+                    var delta = caresse - value;
+                    caresse = value;
+                    CaresseChanged?.Invoke(this, new IntEventArgs(caresse));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Header("Other Attributes")]
         [Range(1, 5)]
@@ -141,7 +208,15 @@ namespace CatAclysm.Character
         public int Ronronnement
         {
             get => ronronnement; 
-            set => ronronnement = value;
+            set {
+                if (ronronnement != value)
+                {
+                    var delta = ronronnement - value;
+                    ronronnement = value;
+                    RonronnementChanged?.Invoke(this, new IntEventArgs(ronronnement));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Range(1, 5)]
         [SerializeField]
@@ -150,7 +225,15 @@ namespace CatAclysm.Character
         public int Coussinet
         { 
             get => coussinet; 
-            set => coussinet = value;
+            set {
+                if (coussinet != value)
+                {
+                    var delta = coussinet - value;
+                    coussinet = value;
+                    CoussinetChanged?.Invoke(this, new IntEventArgs(coussinet));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Range(1, 5)]
         [SerializeField]
@@ -159,7 +242,15 @@ namespace CatAclysm.Character
         public int Vibrisse
         { 
             get => vibrisse; 
-            set => vibrisse = value;
+            set {
+                if (vibrisse != value)
+                {
+                    var delta = vibrisse - value;
+                    vibrisse = value;
+                    VibrisseChanged?.Invoke(this, new IntEventArgs(vibrisse));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Range(1, 5)]
         [SerializeField]
@@ -168,7 +259,15 @@ namespace CatAclysm.Character
         public int Luck
         { 
             get => luck; 
-            set => luck = value;
+            set {
+                if (luck != value)
+                {
+                    var delta = luck - value;
+                    luck = value;
+                    LuckChanged?.Invoke(this, new IntEventArgs(luck));
+                    RemainingBaseStatPoints += delta;
+                }
+            }
         }
         [Header("Luck")]
         [Range(1, 3)]
@@ -194,11 +293,33 @@ namespace CatAclysm.Character
         public int RemainingBaseStatPoints
         {
             get => remainingBaseStatPoints; 
-            set => remainingBaseStatPoints = value;
+            set {
+                if (remainingBaseStatPoints != value)
+                {
+                    remainingBaseStatPoints = value;
+                    RemainingPointCapitalChanged?.Invoke(this, new IntEventArgs(remainingBaseStatPoints));
+                }
+            }
         }
         [SerializeField]
         private int remainingBaseStatPoints;
 
+        #endregion
+
+        #region Events
+
+        public event EventHandler<StringEventArgs> NameChanged;
+        public event EventHandler<IntEventArgs> GriffeChanged;
+        public event EventHandler<IntEventArgs> PoilChanged;
+        public event EventHandler<IntEventArgs> OeilChanged;
+        public event EventHandler<IntEventArgs> QueueChanged;
+        public event EventHandler<IntEventArgs> LuckChanged;
+        public event EventHandler<IntEventArgs> CaresseChanged;
+        public event EventHandler<IntEventArgs> RonronnementChanged;
+        public event EventHandler<IntEventArgs> CoussinetChanged;
+        public event EventHandler<IntEventArgs> VibrisseChanged;
+        public event EventHandler<IntEventArgs> RemainingPointCapitalChanged;
+        
         #endregion
 
         #region Public methods
