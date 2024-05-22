@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace CatAclysm.Services
 {
-    [CreateAssetMenu(fileName = "DicesService", menuName = "Service/Dice")]
+    [CreateAssetMenu(fileName = "DicesService", menuName = "Services/Dice")]
     public class DiceService : ScriptableObject
     {
         public int Roll(int faces, int numberOfRolls = 1)

@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace CatAclysm.Character
 {
+    [CreateAssetMenu(fileName = "BaseStatModifierEffect", menuName = "Data/Effects/BaseStatModifierEffect")]
     public class BaseStatModifierEffect : Effect
     {
         [SerializeField]
