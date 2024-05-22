@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4433dcde5bfd9ec46838fc4bdd41ce17, type: 3}
   m_Name: CharacterCreationService
   m_EditorClassIdentifier: 
-  characterAttributesLibrary: {fileID: 0}
-  theCat: {fileID: 0}
+  characterAttributesLibrary: {fileID: 11400000, guid: 639139508bb88e74f90bac865ca8c140, type: 2}
+  theCat: {fileID: 11400000, guid: ef09c84ed4c3ebe43a7c820760eeea2e, type: 2}

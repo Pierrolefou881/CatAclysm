@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CatAclysm.Character
@@ -215,7 +216,7 @@ namespace CatAclysm.Character
             Qualities = new();
             Drawbacks = new();
             Talents = new();
-            // Skills
+            Skills = skills.ToList();
         }
 
         #endregion
