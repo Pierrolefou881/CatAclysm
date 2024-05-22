@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 namespace CatAclysm.Character
@@ -194,14 +195,14 @@ namespace CatAclysm.Character
 
         #region Public methods
 
-        public void Init(HashSet<Skill> skills, string name, string lineage)
+        public void Init(HashSet<Skill> defaultSkills, string name, string lineage)
         {
-            CatName = string.Empty;
+            CatName = name;
             NickName = string.Empty;
             Age = 7;
             Portrait = null;
             Breed = null;
-            Lineage = string.Empty;
+            Lineage = lineage;
             Reputation = 0;
             Faction = string.Empty;
             Griffe = 1;
@@ -216,7 +217,24 @@ namespace CatAclysm.Character
             Qualities = new();
             Drawbacks = new();
             Talents = new();
-            Skills = skills.ToList();
+            Skills = defaultSkills.ToList();
+
+#if UNITY_EDITOR
+            skills.ForEach(s => AssetDatabase.RemoveObjectFromAsset(s));
+#endif
+
+            Skills = defaultSkills.ToList();
+#if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(this);
+            foreach (var skill in Skills)
+            {
+                skill.name = skill.name.Replace("(Clone)", string.Empty);
+                AssetDatabase.AddObjectToAsset(skill, this);
+                EditorUtility.SetDirty(skill);
+
+            }
+#endif
+            talents = new List<Talent>();
         }
 
         #endregion
