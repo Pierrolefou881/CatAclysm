@@ -59,12 +59,12 @@ namespace CatAclysm.Character.Library
 
         #region Public methods
 
-        public string GenerateName() => $"{namePrefixes[dice.LaunchD10() - 1]} {nameSuffixes[dice.LaunchD10() - 1]}";
+        public string GenerateName() => $"{namePrefixes[dice.Roll(10) - 1]} {nameSuffixes[dice.Roll(10) - 1]}";
 
         public string GenerateLineage()
         {
-            var prefix = lineages[dice.LaunchD6(2) - 2];
-            var suffix = prefix.Suffixes[dice.LaunchD6() - 1];
+            var prefix = lineages[dice.Roll(6, 2) - 2];
+            var suffix = prefix.Suffixes[dice.Roll(6) - 1];
             return suffix.Invert ? $"{suffix.Name} {prefix.name}" : $"{prefix.name} {suffix.Name}";
         }
 
