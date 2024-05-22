@@ -3,7 +3,7 @@ using UnityEngine;
 namespace CatAclysm.Character
 {
     [CreateAssetMenu(fileName = "Drawback", menuName = "Data/Drawback")]
-    public class Drawback : ScriptableObject
+    public class Drawback : Trait
     {
 
     }

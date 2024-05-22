@@ -246,6 +246,21 @@ namespace CatAclysm.Character
             talents = new List<Talent>();
         }
 
+        public int GetBaseStatByEnum(Characteristics characteristics)
+        => characteristics switch
+            {
+                Characteristics.None => 0,
+                Characteristics.Griffe => Griffe,
+                Characteristics.Poil => Poil,
+                Characteristics.Oeil => Oeil,
+                Characteristics.Queue => Queue,
+                Characteristics.Caresse => Caresse,
+                Characteristics.Ronronnement => Ronronnement,
+                Characteristics.Coussinet => Coussinet,
+                Characteristics.Vibirisse => Vibrisse,
+                _ => 0
+            };
+
         #endregion
     }
 }
