@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c6e4eb391667a4e8146491d40b04b9, type: 3}
+  m_Name: Tete
+  m_EditorClassIdentifier: 
+  suffixes:
+  - Name: dure
+    Invert: 0
+  - Name: Grande
+    Invert: 1
+  - Name: ronde
+    Invert: 0
+  - Name: Forte
+    Invert: 1
+  - Name: Petite
+    Invert: 1
+  - Name: plate
+    Invert: 0
