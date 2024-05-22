@@ -293,7 +293,8 @@ namespace CatAclysm.Character
         public int RemainingBaseStatPoints
         {
             get => remainingBaseStatPoints; 
-            set {
+            private set 
+            {
                 if (remainingBaseStatPoints != value)
                 {
                     remainingBaseStatPoints = value;
@@ -302,7 +303,7 @@ namespace CatAclysm.Character
             }
         }
         [SerializeField]
-        private int remainingBaseStatPoints;
+        private int remainingBaseStatPoints = 19;
 
         #endregion
 
