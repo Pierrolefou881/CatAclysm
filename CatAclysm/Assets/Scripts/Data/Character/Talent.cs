@@ -5,14 +5,6 @@ namespace CatAclysm.Character
     [CreateAssetMenu(fileName = "Talent", menuName = "Data/Talent")]
     public class Talent : ScriptableObject
     {
-        public string TalentName
-        {
-            get => talentName; 
-            set => talentName = value;
-        }
-        [SerializeField]
-        private string talentName;
-
         public string Description
         { 
             get => description;

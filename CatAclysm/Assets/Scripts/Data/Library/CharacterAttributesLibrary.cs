@@ -23,10 +23,7 @@ namespace CatAclysm.Character.Library
         public IEnumerable<Lineage> Lineages => lineages.AsEnumerable();
         [SerializeField]
         private List<Lineage> lineages = new();
-        public IEnumerable<string> LineageSuffixes => lineageSuffixes.AsEnumerable();
-        [SerializeField]
-        private List<string> lineageSuffixes = new();
-
+        
         public IEnumerable<string> Factions => factions.AsEnumerable();
         [SerializeField]
         private List<string> factions = new();

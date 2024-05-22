@@ -12,20 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cd59995d6c763c48be0c12ca018d425, type: 3}
   m_Name: CharacterAttributeLibrary
   m_EditorClassIdentifier: 
+  dice: {fileID: 11400000, guid: 20b07af00894e7f459b318587682c7ad, type: 2}
   namePrefixes:
-  - a
-  - b
+  - Ma
+  - Gra
+  - M
+  - Mra
+  - Mi
+  - Maou
+  - "M\xE9ou"
+  - Ra
+  - Wra
+  - 
   nameSuffixes:
-  - c
-  - d
-  lineagePrefixes:
-  - Dents
-  - Crocs
-  lineageSuffixes:
-  - Agile
-  - Touffue
+  - Waou
+  - Iv
+  - Ou
+  - Wraou
+  - Iou
+  - Rou
+  - Ri
+  - Mrrr
+  - Ow
+  - 
+  lineages:
+  - {fileID: 11400000, guid: bf6ff9e00fc590f4fa153fe40a7468ad, type: 2}
+  - {fileID: 11400000, guid: 6f98cfec4afbeda47946419d21ba3b57, type: 2}
+  - {fileID: 11400000, guid: 7d472b7e82aa0554cb7dfeb79c7eedce, type: 2}
+  - {fileID: 11400000, guid: 9df7d4421ee31f043ab04e4646e58505, type: 2}
+  - {fileID: 11400000, guid: 6dc66ccfbfd17ec45b28448c9b86211b, type: 2}
+  - {fileID: 11400000, guid: 1ca709818eed0cb4daf081ecbd0b930d, type: 2}
+  - {fileID: 11400000, guid: ba5fddd10949a2f448c19e16a3f87ace, type: 2}
+  - {fileID: 11400000, guid: a55ec8422fd2a1647b4043330f645c29, type: 2}
+  - {fileID: 11400000, guid: 0908375decef91741934831f2df272b3, type: 2}
+  - {fileID: 11400000, guid: dccd2549d24770342ad6213a6d9a29fd, type: 2}
+  - {fileID: 11400000, guid: b447f5dcd07ed094fa62b668162a28be, type: 2}
   factions:
-  - Destructeurs
+  - Interventionnistes
+  - Progressistes
+  - Esclavagistes
+  - Conservateurs
+  - Ecologistes
+  - "Pass\xE9istes"
+  - Paresseux
+  - Nihilistes
+  - Defaitistes
+  - Avant-gardistes
   qualities:
   - {fileID: 11400000, guid: 1064a6e4b0a508d4b9450f28985e05c0, type: 2}
   drawbacks:
