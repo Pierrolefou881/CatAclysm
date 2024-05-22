@@ -194,7 +194,7 @@ namespace CatAclysm.Character
 
         #region Public methods
 
-        public void Init(HashSet<Skill> skills)
+        public void Init(HashSet<Skill> skills, string name, string lineage)
         {
             CatName = string.Empty;
             NickName = string.Empty;

@@ -21,7 +21,13 @@ namespace CatAclysm.Services
         [ContextMenu("Create new cat")]
         private void InitCat()
         { 
-            theCat.Init(characterAttributesLibrary.Skills);
+            theCat.Init(characterAttributesLibrary.Skills, GenerateName(), GenerateLineage());
         }
+
+        private string GenerateLineage() => characterAttributesLibrary.GenerateLineage();
+
+        private string GenerateName() => characterAttributesLibrary.GenerateName();
+
+        public int ConvertHumanAgeToCat(int humanAge) => Mathf.RoundToInt(humanAge / 5.0f);
     }
 }
