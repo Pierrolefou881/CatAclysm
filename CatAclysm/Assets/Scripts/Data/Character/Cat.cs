@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 namespace CatAclysm.Character
@@ -190,18 +191,26 @@ namespace CatAclysm.Character
         [SerializeField]
         private List<Talent> talents = new();
 
+        public int RemainingBaseStatPoints
+        {
+            get => remainingBaseStatPoints; 
+            set => remainingBaseStatPoints = value;
+        }
+        [SerializeField]
+        private int remainingBaseStatPoints;
+
         #endregion
 
         #region Public methods
 
-        public void Init(HashSet<Skill> skills)
+        public void Init(HashSet<Skill> defaultSkills, string name, string lineage, int pointCapital)
         {
-            CatName = string.Empty;
+            CatName = name;
             NickName = string.Empty;
             Age = 7;
             Portrait = null;
             Breed = null;
-            Lineage = string.Empty;
+            Lineage = lineage;
             Reputation = 0;
             Faction = string.Empty;
             Griffe = 1;
@@ -216,8 +225,41 @@ namespace CatAclysm.Character
             Qualities = new();
             Drawbacks = new();
             Talents = new();
-            Skills = skills.ToList();
+            Skills = defaultSkills.ToList();
+            RemainingBaseStatPoints = pointCapital;
+
+#if UNITY_EDITOR
+            skills.ForEach(s => AssetDatabase.RemoveObjectFromAsset(s));
+#endif
+
+            Skills = defaultSkills.ToList();
+#if UNITY_EDITOR
+            UnityEditor.EditorUtility.SetDirty(this);
+            foreach (var skill in Skills)
+            {
+                skill.name = skill.name.Replace("(Clone)", string.Empty);
+                AssetDatabase.AddObjectToAsset(skill, this);
+                EditorUtility.SetDirty(skill);
+
+            }
+#endif
+            talents = new List<Talent>();
         }
+
+        public int GetBaseStatByEnum(Characteristics characteristics)
+        => characteristics switch
+            {
+                Characteristics.None => 0,
+                Characteristics.Griffe => Griffe,
+                Characteristics.Poil => Poil,
+                Characteristics.Oeil => Oeil,
+                Characteristics.Queue => Queue,
+                Characteristics.Caresse => Caresse,
+                Characteristics.Ronronnement => Ronronnement,
+                Characteristics.Coussinet => Coussinet,
+                Characteristics.Vibirisse => Vibrisse,
+                _ => 0
+            };
 
         #endregion
     }

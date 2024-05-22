@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CatAclysm.Character
@@ -5,12 +7,15 @@ namespace CatAclysm.Character
     [CreateAssetMenu(fileName = "Breed", menuName = "Data/Breeds")]
     public class Breed : ScriptableObject
     {
-        public string BreedName
-        {
-            get => breedName; 
-            set => breedName = value;
-        }
+        public IEnumerable<Quality> Qualities => qualities.AsEnumerable();
         [SerializeField]
-        private string breedName;
+        private List<Quality> qualities = new();
+
+        public IEnumerable<Drawback> Drawbacks => drawbacks.AsEnumerable(); 
+        [SerializeField]
+        private List<Drawback> drawbacks = new();
+
+        [SerializeField]
+        private Sprite sprite;
     }
 }
