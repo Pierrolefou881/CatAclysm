@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:CatAclysm/Assets/Resources/SpritesMenus/Stat.png.meta
 guid: 84f221b8ce105da4c81f9c39deee1854
+========
+guid: 1395d0ca0afce6548b674f6385000cef
+>>>>>>>> 7f6b2d4 (ui : Implement Base Stats Page & Implement Game Font):CatAclysm/Assets/Resources/Raw/BaseStatsPage.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
