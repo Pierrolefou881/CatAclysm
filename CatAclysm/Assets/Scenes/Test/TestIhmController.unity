@@ -2933,21 +2933,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cat: {fileID: 11400000, guid: ef09c84ed4c3ebe43a7c820760eeea2e, type: 2}
-  CatNameChanged:
+  catNameChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 507627535}
-        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  griffeChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  poilChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  queuChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  luckChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  caresseChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  oeilChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  ronronnementChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  vibrisseChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  coussinetChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  remainingPointCapitalChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &872246540
 GameObject:
   m_ObjectHideFlags: 0

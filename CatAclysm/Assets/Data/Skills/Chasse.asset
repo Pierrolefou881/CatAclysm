@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
   m_Name: Chasse
   m_EditorClassIdentifier: 
-  skillName: Chasse
   baseSkill: 0
   row: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
