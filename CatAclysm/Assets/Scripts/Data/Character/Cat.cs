@@ -191,11 +191,19 @@ namespace CatAclysm.Character
         [SerializeField]
         private List<Talent> talents = new();
 
+        public int RemainingBaseStatPoints
+        {
+            get => remainingBaseStatPoints; 
+            set => remainingBaseStatPoints = value;
+        }
+        [SerializeField]
+        private int remainingBaseStatPoints;
+
         #endregion
 
         #region Public methods
 
-        public void Init(HashSet<Skill> defaultSkills, string name, string lineage)
+        public void Init(HashSet<Skill> defaultSkills, string name, string lineage, int pointCapital)
         {
             CatName = name;
             NickName = string.Empty;
@@ -218,6 +226,7 @@ namespace CatAclysm.Character
             Drawbacks = new();
             Talents = new();
             Skills = defaultSkills.ToList();
+            RemainingBaseStatPoints = pointCapital;
 
 #if UNITY_EDITOR
             skills.ForEach(s => AssetDatabase.RemoveObjectFromAsset(s));

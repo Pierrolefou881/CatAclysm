@@ -13,6 +13,10 @@ namespace CatAclysm.Services
         [SerializeField]
         private Cat theCat;
 
+        [SerializeField]
+        [Range(20, 28)]
+        private int characterCreationPointsCapital;
+
         private void OnEnable()
         {
             InitCat(); 
@@ -21,7 +25,7 @@ namespace CatAclysm.Services
         [ContextMenu("Create new cat")]
         private void InitCat()
         { 
-            theCat.Init(characterAttributesLibrary.Skills, GenerateName(), GenerateLineage());
+            theCat.Init(characterAttributesLibrary.Skills, GenerateName(), GenerateLineage(), characterCreationPointsCapital);
         }
 
         private string GenerateLineage() => characterAttributesLibrary.GenerateLineage();
