@@ -313,7 +313,7 @@ namespace CatAclysm.Character
             }
         }
         [SerializeField]
-        private int remainingBaseStatPoints = 19;
+        private int remainingBaseStatPoints = 28;
 
         public int SkillPoints 
         {

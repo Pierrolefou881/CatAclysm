@@ -1,4 +1,5 @@
 using CatAclysm.Character;
+using CatAclysm.Services;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,37 +11,40 @@ namespace CatAclysm.Behavior
         private Cat cat;
 
         [SerializeField]
+        private CharacterCreationService characterCreationService;
+
+        [SerializeField]
         private UnityEvent<string> catNameChanged;
 
         [SerializeField]
-        private UnityEvent<int> griffeChanged;
+        private UnityEvent<string> griffeChanged;
 
         [SerializeField]
-        private UnityEvent<int> poilChanged;
+        private UnityEvent<string> poilChanged;
 
         [SerializeField]
-        private UnityEvent<int> queueChanged;
+        private UnityEvent<string> queueChanged;
 
         [SerializeField]
-        private UnityEvent<int> luckChanged;
+        private UnityEvent<string> luckChanged;
 
         [SerializeField]
-        private UnityEvent<int> caresseChanged;
+        private UnityEvent<string> caresseChanged;
 
         [SerializeField]
-        private UnityEvent<int> oeilChanged;
+        private UnityEvent<string> oeilChanged;
 
         [SerializeField]
-        private UnityEvent<int> ronronnementChanged;
+        private UnityEvent<string> ronronnementChanged;
 
         [SerializeField]
-        private UnityEvent<int> vibrisseChanged;
+        private UnityEvent<string> vibrisseChanged;
 
         [SerializeField]
-        private UnityEvent<int> coussinetChanged;
+        private UnityEvent<string> coussinetChanged;
 
         [SerializeField]
-        private UnityEvent<int> remainingPointCapitalChanged;
+        private UnityEvent<string> remainingPointCapitalChanged;
 
         private void OnEnable()
         {
@@ -57,7 +61,7 @@ namespace CatAclysm.Behavior
             cat.RemainingPointCapitalChanged += Cat_RemainingPointCapitalChanged;
         }
 
-        
+
 
         private void OnDisable()
         {
@@ -76,6 +80,7 @@ namespace CatAclysm.Behavior
 
         #region Cat Setters
 
+        public void ResetCat() => characterCreationService.InitCat();
         public void SetGriffe(int value) => cat.Griffe = value;
         public void SetPoil(int value) => cat.Poil = value;
         public void SetQueue(int value) => cat.Queue = value;
@@ -95,33 +100,33 @@ namespace CatAclysm.Behavior
             => catNameChanged.Invoke(e);
 
         private void Cat_GriffeChanged(object sender, int e)
-            => griffeChanged.Invoke(e);
+            => griffeChanged.Invoke(e.ToString());
 
         private void Cat_PoilChanged(object sender, int e)
-            => poilChanged?.Invoke(e);
+            => poilChanged?.Invoke(e.ToString());
 
         private void Cat_QueueChanged(object sender, int e)
-            => queueChanged?.Invoke(e);
+            => queueChanged?.Invoke(e.ToString());
 
         private void Cat_LuckChanged(object sender, int e)
-            => luckChanged?.Invoke(e);
+            => luckChanged?.Invoke(e.ToString());
 
         private void Cat_CaresseChanged(object sender, int e)
-            => caresseChanged?.Invoke(e);
+            => caresseChanged?.Invoke(e.ToString());
 
         private void Cat_OeilChanged(object sender, int e)
-            => oeilChanged?.Invoke(e);
+            => oeilChanged?.Invoke(e.ToString());
 
         private void Cat_RonronnementChanged(object sender, int e)
-            => ronronnementChanged?.Invoke(e);
+            => ronronnementChanged?.Invoke(e.ToString());
         private void Cat_VibrisseChanged(object sender, int e)
-            => vibrisseChanged?.Invoke(e);
+            => vibrisseChanged?.Invoke(e.ToString());
 
         private void Cat_CoussinetChanged(object sender, int e)
-            => coussinetChanged?.Invoke(e);
+            => coussinetChanged?.Invoke(e.ToString());
 
         private void Cat_RemainingPointCapitalChanged(object sender, int e)
-            => remainingPointCapitalChanged?.Invoke(e);
+            => remainingPointCapitalChanged?.Invoke(e.ToString());
 
         #endregion
     }
