@@ -81,6 +81,8 @@ namespace CatAclysm.Character
                     { 
                         breed.Apply(this);
                     }
+
+                    BreedChanged?.Invoke(this, breed);
                 }
             }
         }
@@ -330,6 +332,8 @@ namespace CatAclysm.Character
         public event EventHandler<int> CoussinetChanged;
         public event EventHandler<int> VibrisseChanged;
         public event EventHandler<int> RemainingPointCapitalChanged;
+
+        public event EventHandler<Breed> BreedChanged;
         
         #endregion
 
