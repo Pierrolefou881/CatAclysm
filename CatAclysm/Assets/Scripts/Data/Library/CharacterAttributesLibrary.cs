@@ -48,10 +48,6 @@ namespace CatAclysm.Character.Library
         [SerializeField]
         private List<Skill> skills = new();
 
-        public IEnumerable<int> SkillRankCosts => skillRankCosts;
-        [SerializeField]
-        private List<int> skillRankCosts = new(new int[] { 0, 1, 2, 4, 8, 16 });
-
         public HashSet<Talent> Talents
         {
             get
@@ -63,6 +59,10 @@ namespace CatAclysm.Character.Library
         }
         [SerializeField]
         private List<Talent> talents = new();
+
+        public IEnumerable<int> RankCosts => rankCosts;
+        [SerializeField]
+        private List<int> rankCosts = new(new int[] { 0, 1, 2, 4, 8, 16 });
 
         #endregion
 

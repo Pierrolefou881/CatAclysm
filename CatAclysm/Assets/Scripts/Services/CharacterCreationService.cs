@@ -29,9 +29,16 @@ namespace CatAclysm.Services
             var skills = characterAttributesLibrary.Skills;
             foreach (var skill in skills)
             {
-                skill.RankCosts = characterAttributesLibrary.SkillRankCosts.ToList();
+                skill.RankCosts = characterAttributesLibrary.RankCosts.ToList();
             }
-            theCat.Init(skills, GenerateName(), GenerateLineage(), characterCreationPointsCapital);
+            
+            var talents = characterAttributesLibrary.Talents;
+            foreach (var talent in talents)
+            {
+                talent.RankCosts = characterAttributesLibrary.RankCosts.ToList();
+            }
+
+            theCat.Init(skills, talents, GenerateName(), GenerateLineage(), characterCreationPointsCapital);
         }
 
         private string GenerateLineage() => characterAttributesLibrary.GenerateLineage();
