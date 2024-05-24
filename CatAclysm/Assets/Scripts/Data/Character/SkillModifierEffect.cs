@@ -17,5 +17,11 @@ namespace CatAclysm.Character
             var skill = cat.Skills.Find(s => s.name == skillToAffect.name);
             skill.BaseSkill += valueToAffect;
         }
+
+        public override void Revert(Cat cat)
+        {
+            var skill = cat.Skills.Find(s => s.name == skillToAffect.name);
+            skill.BaseSkill -= valueToAffect;
+        }
     }
 }

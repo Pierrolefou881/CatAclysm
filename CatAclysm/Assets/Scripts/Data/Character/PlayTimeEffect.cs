@@ -12,5 +12,10 @@ namespace CatAclysm.Character
         {
             // Do nothing at character creation
         }
+
+        public override void Revert(Cat cat)
+        {
+            // Do nothing at character creation
+        }
     }
 }
