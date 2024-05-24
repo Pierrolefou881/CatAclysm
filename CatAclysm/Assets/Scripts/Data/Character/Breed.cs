@@ -17,5 +17,8 @@ namespace CatAclysm.Character
 
         [SerializeField]
         private Sprite sprite;
+
+        public bool CanApply(Cat cat) => qualities.TrueForAll(q => q.CanApply(cat)) && drawbacks.TrueForAll(d => d.CanApply(cat));
+        // TODO remove breed
     }
 }
