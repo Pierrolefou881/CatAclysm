@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Effet Schrodinger
+  m_EditorClassIdentifier: 
+  description: "Le joueur peut d\xE9doubler son personnage et g\xE9rer ses doubles 
+    durant (rang) minutes. Si les deux personnages sont vus en  m\xEAme temps par
+    un \xEAtre humain, un chat d\xE9g\xE9n\xE9r\xE9 ou tout autre  \xEAtre vivant
+    ayant un niveau de conscience animal, l\u2019un des deux  personnages dispara\xEEt
+    et l\u2019autre re\xE7oit (rangs) niveaux de blessure."
+  row: 1

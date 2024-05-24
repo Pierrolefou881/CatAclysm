@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
-  m_Name: Allergene
+  m_Name: Clairvoyance
   m_EditorClassIdentifier: 
-  description: "Les humains sont affect\xE9s dans un rayon de (5 \xD7 rangs) m\xE8tres 
-    centr\xE9 sur le chat activant son talent. Ils subissent alors un malus  de -(rang)
-    \xE0 toutes leurs actions durant (5 \xD7 rang) minutes. La zone  d\u2019effet
+  description: "Le personnage peut voir dans les lieux distants dans un rayon  de\u202F15,\u202F30,\u202F60,120
+    ou\u202F250\u202Fm (selon que le talent est activ\xE9 au  rang\u202F1,\u202F2,\u202F3,\u202F4
+    ou\u202F5) centr\xE9 sur lui, et ce, durant (5 \xD7 rang) minutes. La  zone d\u2019effet
     se d\xE9place avec le chat durant toute sa dur\xE9e effective."
   row: 1
