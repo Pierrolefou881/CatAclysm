@@ -15,7 +15,7 @@ namespace CatAclysm.Services
 
         [SerializeField]
         [Range(20, 28)]
-        private int characterCreationPointsCapital;
+        private int characterCreationPointsCapital = 28;
 
         private void OnEnable()
         {
