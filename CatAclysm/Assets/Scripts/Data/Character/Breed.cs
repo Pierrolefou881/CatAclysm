@@ -19,6 +19,7 @@ namespace CatAclysm.Character
         private Sprite sprite;
 
         public bool CanApply(Cat cat) => qualities.TrueForAll(q => q.CanApply(cat)) && drawbacks.TrueForAll(d => d.CanApply(cat));
+
         public void Apply(Cat cat)
         {
             qualities.ForEach(q => q.Apply(cat));

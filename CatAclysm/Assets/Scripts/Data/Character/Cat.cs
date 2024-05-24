@@ -67,7 +67,22 @@ namespace CatAclysm.Character
         public Breed Breed
         {
             get => breed;
-            set => breed = value;
+            set
+            {
+                if (breed != value) 
+                {
+                    if (breed != null)
+                    {
+                        breed.Revert(this);
+                    }
+
+                    breed = value;
+                    if (breed != null)
+                    { 
+                        breed.Apply(this);
+                    }
+                }
+            }
         }
         [SerializeField]
         private Breed breed;
