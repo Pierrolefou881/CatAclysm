@@ -3,7 +3,7 @@ using UnityEngine;
 namespace CatAclysm.Character
 {
     [CreateAssetMenu(fileName = "Talent", menuName = "Data/Talent")]
-    public class Talent : ScriptableObject
+    public class Talent : Power
     {
         public string Description
         { 
@@ -13,13 +13,18 @@ namespace CatAclysm.Character
         [SerializeField]
         private string description;
 
-        public int Row
+        public override void ComputePoints(Cat cat)
         {
-            get => row; 
-            set => row = value;
+            cat.TalentPoints = (int) Mathf.Pow(2, cat.Vibrisse);
+            if (cat.Vibrisse == 5) 
+            {
+                cat.TalentPoints -= 8;
+            }
         }
-        [Range(1, 5)]
-        [SerializeField]
-        private int row;
+
+        protected override int GetPointCapital(Cat cat) => cat.TalentPoints;
+        protected override void ConsumePoints(Cat cat, int numberOfPoints) => cat.TalentPoints -= numberOfPoints;
+        protected override void RefundPoints(Cat cat, int numberOfPoints) => cat.TalentPoints += numberOfPoints;
+        protected override void ResetPoints(Cat cat) => cat.TalentPoints = 0;
     }
 }

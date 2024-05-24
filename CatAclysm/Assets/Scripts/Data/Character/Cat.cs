@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
@@ -294,11 +296,7 @@ namespace CatAclysm.Character
         [SerializeField]
         private List<Skill> skills = new();
 
-        public List<Talent> Talents
-        { 
-            get => talents; 
-            set => talents = value; 
-        }
+        public List<Talent> Talents => talents;
         [SerializeField]
         private List<Talent> talents = new();
 
@@ -331,6 +329,20 @@ namespace CatAclysm.Character
         }
         private int skillPoints;
 
+        public int TalentPoints
+        {
+            get => talentPoints;
+            set 
+            {
+                if (talentPoints != value)
+                { 
+                    talentPoints = value;
+                    TalentPointsChanged?.Invoke(this, talentPoints);
+                }
+            }
+        }
+        private int talentPoints;
+
         #endregion
 
         #region Events
@@ -347,6 +359,7 @@ namespace CatAclysm.Character
         public event EventHandler<int> VibrisseChanged;
         public event EventHandler<int> RemainingPointCapitalChanged;
         public event EventHandler<int> SkillPointsChanged;
+        public event EventHandler<int> TalentPointsChanged;
 
         public event EventHandler<Breed> BreedChanged;
         
@@ -354,7 +367,7 @@ namespace CatAclysm.Character
 
         #region Public methods
 
-        public void Init(HashSet<Skill> defaultSkills, string name, string lineage, int pointCapital)
+        public void Init(HashSet<Skill> defaultSkills, HashSet<Talent> defaultTalents,string name, string lineage, int pointCapital)
         {
             CatName = name;
             NickName = string.Empty;
@@ -375,7 +388,7 @@ namespace CatAclysm.Character
             Luck = 1;
             Qualities = new();
             Drawbacks = new();
-            Talents = new();
+            talents = defaultTalents.ToList();
             skills = defaultSkills.ToList();
             RemainingBaseStatPoints = pointCapital;
 
@@ -414,6 +427,16 @@ namespace CatAclysm.Character
 
         public void ComputeSkillPoints() => SkillPoints = 3 * (Ronronnement + Caresse);
         public void ResetSkillPoints() => SkillPoints = 0;
+
+        public void ComputeTalentPoints() 
+        {
+            TalentPoints = (int)Mathf.Pow(2, Vibrisse);
+            if (Vibrisse == 5) 
+            {
+                TalentPoints -= 8;
+            }
+        }
+        public void ResetTalentPoints() => TalentPoints = 0;
 
         #endregion
     }
