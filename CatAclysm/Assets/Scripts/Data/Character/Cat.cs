@@ -1,4 +1,3 @@
-using CatAclysm.Events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +32,7 @@ namespace CatAclysm.Character
                 if (catName != value)
                 {
                     catName = value;
-                    NameChanged?.Invoke(this, new StringEventArgs(catName));
+                    NameChanged?.Invoke(this, catName);
                 }
             }
         }
@@ -68,7 +67,22 @@ namespace CatAclysm.Character
         public Breed Breed
         {
             get => breed;
-            set => breed = value;
+            set
+            {
+                if (breed != value) 
+                {
+                    if (breed != null)
+                    {
+                        breed.Revert(this);
+                    }
+
+                    breed = value;
+                    if (breed != null)
+                    { 
+                        breed.Apply(this);
+                    }
+                }
+            }
         }
         [SerializeField]
         private Breed breed;
@@ -122,7 +136,7 @@ namespace CatAclysm.Character
                 {
                     var delta = griffe - value;
                     griffe = value;
-                    GriffeChanged?.Invoke(this, new IntEventArgs(griffe));
+                    GriffeChanged?.Invoke(this, griffe);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -141,7 +155,7 @@ namespace CatAclysm.Character
                 {
                     var delta = poil - value;
                     poil = value;
-                    PoilChanged?.Invoke(this, new IntEventArgs(poil));
+                    PoilChanged?.Invoke(this, poil);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -159,7 +173,7 @@ namespace CatAclysm.Character
                 { 
                     var delta = oeil - value;
                     oeil = value;
-                    OeilChanged?.Invoke(this, new IntEventArgs(oeil));
+                    OeilChanged?.Invoke(this, oeil);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -177,7 +191,7 @@ namespace CatAclysm.Character
                 { 
                     var delta = queue - value;
                     queue = value;
-                    QueueChanged?.Invoke(this, new IntEventArgs(queue));
+                    QueueChanged?.Invoke(this, queue);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -195,7 +209,7 @@ namespace CatAclysm.Character
                 {
                     var delta = caresse - value;
                     caresse = value;
-                    CaresseChanged?.Invoke(this, new IntEventArgs(caresse));
+                    CaresseChanged?.Invoke(this, caresse);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -213,7 +227,7 @@ namespace CatAclysm.Character
                 {
                     var delta = ronronnement - value;
                     ronronnement = value;
-                    RonronnementChanged?.Invoke(this, new IntEventArgs(ronronnement));
+                    RonronnementChanged?.Invoke(this, ronronnement);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -230,7 +244,7 @@ namespace CatAclysm.Character
                 {
                     var delta = coussinet - value;
                     coussinet = value;
-                    CoussinetChanged?.Invoke(this, new IntEventArgs(coussinet));
+                    CoussinetChanged?.Invoke(this, coussinet);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -247,7 +261,7 @@ namespace CatAclysm.Character
                 {
                     var delta = vibrisse - value;
                     vibrisse = value;
-                    VibrisseChanged?.Invoke(this, new IntEventArgs(vibrisse));
+                    VibrisseChanged?.Invoke(this, vibrisse);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -264,7 +278,7 @@ namespace CatAclysm.Character
                 {
                     var delta = luck - value;
                     luck = value;
-                    LuckChanged?.Invoke(this, new IntEventArgs(luck));
+                    LuckChanged?.Invoke(this, luck);
                     RemainingBaseStatPoints += delta;
                 }
             }
@@ -274,11 +288,7 @@ namespace CatAclysm.Character
         [SerializeField]
         private int luck = 1;
 
-        public List<Skill> Skills
-        {
-            get => skills;
-            set => skills = value;
-        }
+        public List<Skill> Skills => skills;
         [SerializeField]
         private List<Skill> skills = new();
 
@@ -298,7 +308,7 @@ namespace CatAclysm.Character
                 if (remainingBaseStatPoints != value)
                 {
                     remainingBaseStatPoints = value;
-                    RemainingPointCapitalChanged?.Invoke(this, new IntEventArgs(remainingBaseStatPoints));
+                    RemainingPointCapitalChanged?.Invoke(this, remainingBaseStatPoints);
                 }
             }
         }
@@ -309,17 +319,17 @@ namespace CatAclysm.Character
 
         #region Events
 
-        public event EventHandler<StringEventArgs> NameChanged;
-        public event EventHandler<IntEventArgs> GriffeChanged;
-        public event EventHandler<IntEventArgs> PoilChanged;
-        public event EventHandler<IntEventArgs> OeilChanged;
-        public event EventHandler<IntEventArgs> QueueChanged;
-        public event EventHandler<IntEventArgs> LuckChanged;
-        public event EventHandler<IntEventArgs> CaresseChanged;
-        public event EventHandler<IntEventArgs> RonronnementChanged;
-        public event EventHandler<IntEventArgs> CoussinetChanged;
-        public event EventHandler<IntEventArgs> VibrisseChanged;
-        public event EventHandler<IntEventArgs> RemainingPointCapitalChanged;
+        public event EventHandler<string> NameChanged;
+        public event EventHandler<int> GriffeChanged;
+        public event EventHandler<int> PoilChanged;
+        public event EventHandler<int> OeilChanged;
+        public event EventHandler<int> QueueChanged;
+        public event EventHandler<int> LuckChanged;
+        public event EventHandler<int> CaresseChanged;
+        public event EventHandler<int> RonronnementChanged;
+        public event EventHandler<int> CoussinetChanged;
+        public event EventHandler<int> VibrisseChanged;
+        public event EventHandler<int> RemainingPointCapitalChanged;
         
         #endregion
 
@@ -347,14 +357,14 @@ namespace CatAclysm.Character
             Qualities = new();
             Drawbacks = new();
             Talents = new();
-            Skills = defaultSkills.ToList();
+            skills = defaultSkills.ToList();
             RemainingBaseStatPoints = pointCapital;
 
 #if UNITY_EDITOR
             skills.ForEach(s => AssetDatabase.RemoveObjectFromAsset(s));
 #endif
 
-            Skills = defaultSkills.ToList();
+            skills = defaultSkills.ToList();
 #if UNITY_EDITOR
             UnityEditor.EditorUtility.SetDirty(this);
             foreach (var skill in Skills)
@@ -369,19 +379,19 @@ namespace CatAclysm.Character
         }
 
         public int GetBaseStatByEnum(Characteristics characteristics)
-        => characteristics switch
-            {
-                Characteristics.None => 0,
-                Characteristics.Griffe => Griffe,
-                Characteristics.Poil => Poil,
-                Characteristics.Oeil => Oeil,
-                Characteristics.Queue => Queue,
-                Characteristics.Caresse => Caresse,
-                Characteristics.Ronronnement => Ronronnement,
-                Characteristics.Coussinet => Coussinet,
-                Characteristics.Vibirisse => Vibrisse,
-                _ => 0
-            };
+            => characteristics switch
+                {
+                    Characteristics.None => 0,
+                    Characteristics.Griffe => Griffe,
+                    Characteristics.Poil => Poil,
+                    Characteristics.Oeil => Oeil,
+                    Characteristics.Queue => Queue,
+                    Characteristics.Caresse => Caresse,
+                    Characteristics.Ronronnement => Ronronnement,
+                    Characteristics.Coussinet => Coussinet,
+                    Characteristics.Vibirisse => Vibrisse,
+                    _ => 0
+                };
 
         #endregion
     }

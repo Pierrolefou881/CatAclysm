@@ -1,11 +1,10 @@
 using CatAclysm.Character;
-using CatAclysm.Events;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace CatAclysm.Behavior
 {
-    public class CatExpositionBehavior : MonoBehaviour
+    public class CatBaseStatExpositionBehavior : MonoBehaviour
     {
         [SerializeField]
         private Cat cat;
@@ -20,7 +19,7 @@ namespace CatAclysm.Behavior
         private UnityEvent<int> poilChanged;
 
         [SerializeField]
-        private UnityEvent<int> queuChanged;
+        private UnityEvent<int> queueChanged;
 
         [SerializeField]
         private UnityEvent<int> luckChanged;
@@ -92,37 +91,37 @@ namespace CatAclysm.Behavior
 
         #region Callbacks
 
-        private void Cat_NameChanged(object sender, StringEventArgs e)
-            => catNameChanged.Invoke(e.Text);
+        private void Cat_NameChanged(object sender, string e)
+            => catNameChanged.Invoke(e);
 
-        private void Cat_GriffeChanged(object sender, IntEventArgs e)
-            => griffeChanged.Invoke(e.Value);
+        private void Cat_GriffeChanged(object sender, int e)
+            => griffeChanged.Invoke(e);
 
-        private void Cat_PoilChanged(object sender, IntEventArgs e)
-            => poilChanged?.Invoke(e.Value);
+        private void Cat_PoilChanged(object sender, int e)
+            => poilChanged?.Invoke(e);
 
-        private void Cat_QueueChanged(object sender, IntEventArgs e)
-            => queuChanged?.Invoke(e.Value);
+        private void Cat_QueueChanged(object sender, int e)
+            => queueChanged?.Invoke(e);
 
-        private void Cat_LuckChanged(object sender, IntEventArgs e)
-            => luckChanged?.Invoke(e.Value);
+        private void Cat_LuckChanged(object sender, int e)
+            => luckChanged?.Invoke(e);
 
-        private void Cat_CaresseChanged(object sender, IntEventArgs e)
-            => caresseChanged?.Invoke(e.Value);
+        private void Cat_CaresseChanged(object sender, int e)
+            => caresseChanged?.Invoke(e);
 
-        private void Cat_OeilChanged(object sender, IntEventArgs e)
-            => oeilChanged?.Invoke(e.Value);
+        private void Cat_OeilChanged(object sender, int e)
+            => oeilChanged?.Invoke(e);
 
-        private void Cat_RonronnementChanged(object sender, IntEventArgs e)
-            => ronronnementChanged?.Invoke(e.Value);
-        private void Cat_VibrisseChanged(object sender, IntEventArgs e)
-            => vibrisseChanged?.Invoke(e.Value);
+        private void Cat_RonronnementChanged(object sender, int e)
+            => ronronnementChanged?.Invoke(e);
+        private void Cat_VibrisseChanged(object sender, int e)
+            => vibrisseChanged?.Invoke(e);
 
-        private void Cat_CoussinetChanged(object sender, IntEventArgs e)
-            => coussinetChanged?.Invoke(e.Value);
+        private void Cat_CoussinetChanged(object sender, int e)
+            => coussinetChanged?.Invoke(e);
 
-        private void Cat_RemainingPointCapitalChanged(object sender, IntEventArgs e)
-            => remainingPointCapitalChanged?.Invoke(e.Value);
+        private void Cat_RemainingPointCapitalChanged(object sender, int e)
+            => remainingPointCapitalChanged?.Invoke(e);
 
         #endregion
     }

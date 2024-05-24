@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace CatAclysm.Character
@@ -7,17 +8,31 @@ namespace CatAclysm.Character
     {
         public int BaseSkill
         {
-            get => baseSkill; 
-            set => baseSkill = value;
-        }
+            get => baseSkill;
+            set
+            { 
+                if (baseSkill != value) 
+                {
+                    baseSkill = value;
+                    BaseSkillChanged?.Invoke(this, baseSkill);
+                }
+            }
+        } 
         [Range(0, 5)]
         [SerializeField]
         private int baseSkill;
 
         public int Row
         {
-            get => row; 
-            set => row = value;
+            get => row;
+            set 
+            {
+                if (row != value) 
+                {
+                    row = value;
+                    RowChanged?.Invoke(this, row);
+                }
+            }
         }
         [Range(0, 5)]
         [SerializeField]
@@ -28,6 +43,9 @@ namespace CatAclysm.Character
 
         [SerializeField]
         private Characteristics secondaryCharacteristics;
+
+        public event EventHandler<int> BaseSkillChanged;
+        public event EventHandler<int> RowChanged;
 
         public void ComputeSkillPoints(Cat cat) 
         {
