@@ -13,6 +13,6 @@ namespace CatAclysm.Character
 
         public bool CanApply(Cat cat) => effect.CanApply(cat);
         public void Apply(Cat cat) => effect.Apply(cat);
-        // TODO remove trait ???
+        public void Revert(Cat cat) => effect.Revert(cat);
     }
 }
