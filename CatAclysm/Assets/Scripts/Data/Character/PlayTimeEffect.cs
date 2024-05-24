@@ -17,5 +17,7 @@ namespace CatAclysm.Character
         {
             // Do nothing at character creation
         }
+
+        public override string ToString() => description;
     }
 }

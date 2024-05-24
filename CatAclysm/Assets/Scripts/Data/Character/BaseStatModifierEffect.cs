@@ -79,5 +79,6 @@ namespace CatAclysm.Character
         }
 
         public override bool CanApply(Cat cat) => cat.GetBaseStatByEnum(baseStatsToAffect) + valueToApply > 0;
+        public override string ToString() => $"Caractéristique {baseStatsToAffect} : {valueToApply}";
     }
 }
