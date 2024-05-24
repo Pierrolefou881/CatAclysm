@@ -44,5 +44,7 @@ namespace CatAclysm.Character
                     break;
             }
         }
+
+        public override bool CanApply(Cat cat) => cat.GetBaseStatByEnum(baseStatsToAffect) + valueToApply > 0;
     }
 }
