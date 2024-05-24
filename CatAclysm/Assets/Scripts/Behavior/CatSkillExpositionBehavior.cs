@@ -13,46 +13,62 @@ namespace CatAclysm.Behavior
         [SerializeField]
         private UnityEvent<SkillEventArgs> skillChanged;
 
+        [SerializeField]
+        private UnityEvent<string> skillPointCapitalChanged;
+
         private void OnEnable()
         {
-            foreach (var s in cat.Skills) 
+            cat.SkillPointsChanged += Cat_SkillPointsChanged;
+            foreach (var s in cat.Skills)
             {
                 s.BaseSkillChanged += Skill_SkillChanged;
                 s.RankChanged += Skill_SkillChanged;
             }
         }
 
-        private void OnDisable() 
+        private void OnDisable()
         {
             foreach (var s in cat.Skills)
             {
                 s.BaseSkillChanged -= Skill_SkillChanged;
                 s.RankChanged -= Skill_SkillChanged;
             }
+            cat.SkillPointsChanged += Cat_SkillPointsChanged;
         }
 
-        public void SetSkillValue(string skillName, int value, bool changeRow = true)
-        { 
+        public void GenerateSkillPoints() => cat.ComputeSkillPoints();
+
+        public bool CanPurchaseSkillRank(int desiredRank, string skillName)
+        {
             var skill = cat.Skills.Find(s => s.name == skillName);
-            if (skill != null) 
+            return skill != null && skill.CanPurchaseRank(desiredRank, cat);
+        }
+
+        public void SetSkillToRank(int desiredRank, string skillName)
+        {
+            var skill = cat.Skills.Find(s => s.name == skillName);
+            if (skill != null)
             {
-                if (changeRow)
+                if (desiredRank > skill.Rank)
                 {
-                    skill.Rank = value;
+                    skill.PurchaseRank(desiredRank, cat);
                 }
-                else
+                else if (desiredRank < skill.Rank)
                 {
-                    skill.BaseSkill = value;
+                    skill.RefundToRank(desiredRank, cat);
                 }
             }
         }
 
         private void Skill_SkillChanged(object sender, int e)
-        { 
-            if (sender is Skill skill) 
+        {
+            if (sender is Skill skill)
             {
                 skillChanged.Invoke(new SkillEventArgs(skill.name, skill.BaseSkill, skill.Rank));
             }
         }
+
+        private void Cat_SkillPointsChanged(object sender, int e)
+            => skillPointCapitalChanged.Invoke(e.ToString());
     }
 }

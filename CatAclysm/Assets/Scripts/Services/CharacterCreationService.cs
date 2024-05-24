@@ -1,6 +1,5 @@
 using CatAclysm.Character;
 using CatAclysm.Character.Library;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -40,7 +39,5 @@ namespace CatAclysm.Services
         private string GenerateName() => characterAttributesLibrary.GenerateName();
 
         public int ConvertHumanAgeToCat(int humanAge) => Mathf.RoundToInt(humanAge / 5.0f);
-
-        public void GenerateSkillPoints() => theCat.ComputeSkillPoints();
     }
 }
