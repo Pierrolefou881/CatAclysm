@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d02f1467c829cc44b8208d70ccef278, type: 3}
-  m_Name: Curieux
+  m_Script: {fileID: 11500000, guid: feb1caf5785e305459d09cc3bf368d8a, type: 3}
+  m_Name: MoinsUnEnDiscretion_race_
   m_EditorClassIdentifier: 
-  gain: 2
-  effect: {fileID: 11400000, guid: 7120fe9af7401ec418256dbbd76070cf, type: 2}
+  skillToAffect: {fileID: 11400000, guid: f5dd0732dc0e9ba40b478aa065c5b12f, type: 2}
+  valueToAffect: -1

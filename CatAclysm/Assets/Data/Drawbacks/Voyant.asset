@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d02f1467c829cc44b8208d70ccef278, type: 3}
-  m_Name: Curieux
+  m_Name: Voyant
   m_EditorClassIdentifier: 
   gain: 2
-  effect: {fileID: 11400000, guid: 7120fe9af7401ec418256dbbd76070cf, type: 2}
+  effect: {fileID: 11400000, guid: b72a164e49e180b498f3617ffc09a6a6, type: 2}
