@@ -14,7 +14,7 @@ namespace CatAclysm.Character
                 if (baseSkill != value) 
                 {
                     baseSkill = value;
-                    BaseSkillChanged?.Invoke(this, value);
+                    BaseSkillChanged?.Invoke(this, baseSkill);
                 }
             }
         } 
@@ -24,8 +24,15 @@ namespace CatAclysm.Character
 
         public int Row
         {
-            get => row; 
-            set => row = value;
+            get => row;
+            set 
+            {
+                if (row != value) 
+                {
+                    row = value;
+                    RowChanged?.Invoke(this, row);
+                }
+            }
         }
         [Range(0, 5)]
         [SerializeField]
@@ -38,6 +45,7 @@ namespace CatAclysm.Character
         private Characteristics secondaryCharacteristics;
 
         public event EventHandler<int> BaseSkillChanged;
+        public event EventHandler<int> RowChanged;
 
         public void ComputeSkillPoints(Cat cat) 
         {
