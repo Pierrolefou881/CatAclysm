@@ -23,5 +23,7 @@ namespace CatAclysm.Character
             var skill = cat.Skills.Find(s => s.name == skillToAffect.name);
             skill.BaseSkill -= valueToAffect;
         }
+
+        public override string ToString() => $"Compétence {skillToAffect} : {valueToAffect}";
     }
 }

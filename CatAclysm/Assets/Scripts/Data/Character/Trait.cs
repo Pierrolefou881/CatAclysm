@@ -14,5 +14,8 @@ namespace CatAclysm.Character
         public bool CanApply(Cat cat) => effect.CanApply(cat);
         public void Apply(Cat cat) => effect.Apply(cat);
         public void Revert(Cat cat) => effect.Revert(cat);
+
+        protected abstract string GetTypeName();
+        public override string ToString() => $"{GetTypeName()} :\n\t{effect}\n\tPoints de compétences : {gain}";
     }
 }
