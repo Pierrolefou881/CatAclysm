@@ -28,7 +28,7 @@ namespace CatAclysm.Character
         public int Rank
         {
             get => rank;
-            set 
+            private set 
             {
                 if (rank != value) 
                 {
