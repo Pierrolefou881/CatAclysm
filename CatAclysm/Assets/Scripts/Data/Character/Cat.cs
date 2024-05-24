@@ -317,6 +317,20 @@ namespace CatAclysm.Character
         [SerializeField]
         private int remainingBaseStatPoints = 19;
 
+        public int SkillPoints 
+        {
+            get => skillPoints;
+            set
+            {
+                if (skillPoints != value)
+                { 
+                    skillPoints = value;
+                    SkillPointsChanged?.Invoke(this, skillPoints);
+                }
+            }
+        }
+        private int skillPoints;
+
         #endregion
 
         #region Events
@@ -332,6 +346,7 @@ namespace CatAclysm.Character
         public event EventHandler<int> CoussinetChanged;
         public event EventHandler<int> VibrisseChanged;
         public event EventHandler<int> RemainingPointCapitalChanged;
+        public event EventHandler<int> SkillPointsChanged;
 
         public event EventHandler<Breed> BreedChanged;
         
@@ -396,6 +411,9 @@ namespace CatAclysm.Character
                     Characteristics.Vibirisse => Vibrisse,
                     _ => 0
                 };
+
+        public void ComputeSkillPoints() => SkillPoints = 3 * (Ronronnement + Caresse);
+        public void ResetSkillPoints() => SkillPoints = 0;
 
         #endregion
     }

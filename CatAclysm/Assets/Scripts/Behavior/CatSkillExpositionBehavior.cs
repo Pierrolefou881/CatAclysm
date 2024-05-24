@@ -17,8 +17,8 @@ namespace CatAclysm.Behavior
         {
             foreach (var s in cat.Skills) 
             {
-                s.BaseSkillChanged += Skill_BaseSkillChanged;
-                s.RowChanged += Skill_BaseSkillChanged;
+                s.BaseSkillChanged += Skill_SkillChanged;
+                s.RankChanged += Skill_SkillChanged;
             }
         }
 
@@ -26,19 +26,19 @@ namespace CatAclysm.Behavior
         {
             foreach (var s in cat.Skills)
             {
-                s.BaseSkillChanged -= Skill_BaseSkillChanged;
-                s.RowChanged -= Skill_BaseSkillChanged;
+                s.BaseSkillChanged -= Skill_SkillChanged;
+                s.RankChanged -= Skill_SkillChanged;
             }
         }
 
-        public void SetSkillValue(string skillName, int value, bool changeRow = false)
+        public void SetSkillValue(string skillName, int value, bool changeRow = true)
         { 
             var skill = cat.Skills.Find(s => s.name == skillName);
             if (skill != null) 
             {
                 if (changeRow)
                 {
-                    skill.Row = value;
+                    skill.Rank = value;
                 }
                 else
                 {
@@ -47,11 +47,11 @@ namespace CatAclysm.Behavior
             }
         }
 
-        private void Skill_BaseSkillChanged(object sender, int e)
+        private void Skill_SkillChanged(object sender, int e)
         { 
             if (sender is Skill skill) 
             {
-                skillChanged.Invoke(new SkillEventArgs(skill.name, skill.BaseSkill, skill.Row));
+                skillChanged.Invoke(new SkillEventArgs(skill.name, skill.BaseSkill, skill.Rank));
             }
         }
     }

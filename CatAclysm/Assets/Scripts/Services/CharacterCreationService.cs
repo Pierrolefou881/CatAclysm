@@ -1,5 +1,7 @@
 using CatAclysm.Character;
 using CatAclysm.Character.Library;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CatAclysm.Services
@@ -25,7 +27,12 @@ namespace CatAclysm.Services
         [ContextMenu("Create new cat")]
         public void InitCat()
         { 
-            theCat.Init(characterAttributesLibrary.Skills, GenerateName(), GenerateLineage(), characterCreationPointsCapital);
+            var skills = characterAttributesLibrary.Skills;
+            foreach (var skill in skills)
+            {
+                skill.RankCosts = characterAttributesLibrary.SkillRankCosts.ToList();
+            }
+            theCat.Init(skills, GenerateName(), GenerateLineage(), characterCreationPointsCapital);
         }
 
         private string GenerateLineage() => characterAttributesLibrary.GenerateLineage();
@@ -33,5 +40,7 @@ namespace CatAclysm.Services
         private string GenerateName() => characterAttributesLibrary.GenerateName();
 
         public int ConvertHumanAgeToCat(int humanAge) => Mathf.RoundToInt(humanAge / 5.0f);
+
+        public void GenerateSkillPoints() => theCat.ComputeSkillPoints();
     }
 }
