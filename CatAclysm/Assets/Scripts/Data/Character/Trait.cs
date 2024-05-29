@@ -11,7 +11,7 @@ namespace CatAclysm.Character
         [SerializeField]
         private Effect effect;
 
-        public bool CanApply(Cat cat) => effect.CanApply(cat);
+        public bool CanApply(Cat cat) => effect.CanApply(cat) && !cat.Qualities.Exists(q => q.name == name) && !cat.Drawbacks.Exists(d => d.name == name);
         public void Apply(Cat cat) => effect.Apply(cat);
         public void Revert(Cat cat) => effect.Revert(cat);
 
