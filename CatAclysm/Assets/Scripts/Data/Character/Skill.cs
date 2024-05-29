@@ -33,7 +33,7 @@ namespace CatAclysm.Character
         public void ComputeBasePoints(Cat cat) 
         {
             var skillPoints = cat.GetBaseStatByEnum(primaryCharacteristics);
-            BaseSkill = secondaryCharacteristics == Characteristics.None ? skillPoints : (int)((skillPoints + cat.GetBaseStatByEnum(secondaryCharacteristics)) / 2.0 + 1);
+            BaseSkill += secondaryCharacteristics == Characteristics.None ? skillPoints : (int)((skillPoints + cat.GetBaseStatByEnum(secondaryCharacteristics)) / 2.0 + 1);
         }
 
         protected override int GetPointCapital(Cat cat) => cat.SkillPoints;
