@@ -13,6 +13,8 @@ namespace CatAclysm.Character
             // Do nothing at character creation
         }
 
+        public override bool CanApply(Cat cat) => true;
+
         public override void Revert(Cat cat)
         {
             // Do nothing at character creation

@@ -20,6 +20,8 @@ namespace CatAclysm.Services
         private int characterCreationPointsCapital = 28;
 
         public IEnumerable<Breed> Breeds => characterAttributesLibrary.Breeds.Where(b => b.CanApply(theCat));
+        public IEnumerable<Quality> Qualities => characterAttributesLibrary.Qualities.Where(b => b.CanApply(theCat));
+        public IEnumerable<Drawback> Drawbacks => characterAttributesLibrary.Drawbacks.Where(b => b.CanApply(theCat));
 
         private void OnEnable()
         {
