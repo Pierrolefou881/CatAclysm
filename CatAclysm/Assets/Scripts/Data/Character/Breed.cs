@@ -23,14 +23,31 @@ namespace CatAclysm.Character
 
         public void Apply(Cat cat)
         {
-            qualities.ForEach(q => q.Apply(cat));
-            drawbacks.ForEach(d => d.Apply(cat));
+            foreach (var q in qualities)
+            { 
+                q.Apply(cat);
+                cat.Qualities.Add(q);
+            }
+            foreach (var d in drawbacks)
+            { 
+                d.Apply(cat);
+                cat.Drawbacks.Add(d);
+            }
         }
         
         public void Revert(Cat cat) 
         {
-            qualities.ForEach(q => q.Revert(cat));
-            drawbacks.ForEach(d => d.Revert(cat));
+            foreach (var q in Qualities)
+            { 
+                q.Revert(cat); 
+                cat.Qualities.Remove(q);
+            }
+
+            foreach (var d in drawbacks)
+            { 
+                d.Revert(cat);
+                cat.Drawbacks.Remove(d);
+            }
         }
 
         public override string ToString()

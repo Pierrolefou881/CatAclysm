@@ -25,5 +25,7 @@ namespace CatAclysm.Character
         }
 
         public override string ToString() => $"Compétence {skillToAffect} : {valueToAffect}";
+
+        public override bool CanApply(Cat cat) => cat.SkillPoints + valueToAffect >= 0;
     }
 }
