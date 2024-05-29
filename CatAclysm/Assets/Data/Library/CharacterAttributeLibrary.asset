@@ -35,6 +35,23 @@ MonoBehaviour:
   - Mrrr
   - Ow
   - 
+  breeds:
+  - {fileID: 11400000, guid: 6b0be9b7540cfa04c9f86843ae13e882, type: 2}
+  - {fileID: 11400000, guid: e48db6dbf12e0934cabed70867ef5b45, type: 2}
+  - {fileID: 11400000, guid: b211b522d1d55a54689b03482995878d, type: 2}
+  - {fileID: 11400000, guid: 0a327c9883aa9f5449d6c3fcae0302ad, type: 2}
+  - {fileID: 11400000, guid: e153cc09420633d409de0cc78cb6cda6, type: 2}
+  - {fileID: 11400000, guid: 51c6f6038afcbf64fb7bae12eba2de38, type: 2}
+  - {fileID: 11400000, guid: 6a0e7f1e7b421ab4e9f2ada7006a9d4d, type: 2}
+  - {fileID: 11400000, guid: 1f4d9a526053a414ead42b5c4382be43, type: 2}
+  - {fileID: 11400000, guid: 8e810561527e8e943b929255e84c8190, type: 2}
+  - {fileID: 11400000, guid: 1b7945febc9f4b145b3736e43eb64c1c, type: 2}
+  - {fileID: 11400000, guid: 327111768ffee6648bb1ab8acf6544ae, type: 2}
+  - {fileID: 11400000, guid: bf90e18dbd80b3647b05d664f700d380, type: 2}
+  - {fileID: 11400000, guid: 4524c3a9e685a7c40810bc509ef69e75, type: 2}
+  - {fileID: 11400000, guid: b500129c23ccaf747a9a74979a766c69, type: 2}
+  - {fileID: 11400000, guid: dc992f24d5aea9144b8800029c4c7a0b, type: 2}
+  - {fileID: 11400000, guid: 9d2e797360ad5f942aee7bd5c380d1d9, type: 2}
   lineages:
   - {fileID: 11400000, guid: bf6ff9e00fc590f4fa153fe40a7468ad, type: 2}
   - {fileID: 11400000, guid: 6f98cfec4afbeda47946419d21ba3b57, type: 2}
@@ -125,3 +142,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9674b8e0d186fb44fbab6105f3069c93, type: 2}
   - {fileID: 11400000, guid: 6c6dbfdfc700ae84cb314a7711b7bcd9, type: 2}
   - {fileID: 11400000, guid: a532f3de162c98b4f9ed249265c3c9c9, type: 2}
+  rankCosts: 000000000100000002000000040000000800000010000000

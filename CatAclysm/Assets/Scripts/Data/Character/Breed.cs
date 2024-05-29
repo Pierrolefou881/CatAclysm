@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using UnityEngine;
 
 namespace CatAclysm.Character
@@ -30,6 +31,22 @@ namespace CatAclysm.Character
         {
             qualities.ForEach(q => q.Revert(cat));
             drawbacks.ForEach(d => d.Revert(cat));
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new();
+            if (qualities.Count > 0)
+            {
+                sb.AppendLine("<b><u>Qualité(s) :</u></b>");
+                qualities.ForEach(q => sb.AppendLine(q.ToString()));
+            }
+            if (drawbacks.Count > 0)
+            {
+                sb.AppendLine("<b><u>Défaut(s) :</u></b>");
+                drawbacks.ForEach(d => sb.AppendLine(d.ToString()));
+            }
+            return sb.ToString();
         }
     }
 }

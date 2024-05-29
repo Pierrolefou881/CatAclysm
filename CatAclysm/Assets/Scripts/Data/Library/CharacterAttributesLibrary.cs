@@ -20,6 +20,10 @@ namespace CatAclysm.Character.Library
         [SerializeField]
         private List<string> nameSuffixes = new();
 
+        public IEnumerable<Breed> Breeds => breeds.AsEnumerable();
+        [SerializeField]
+        private List<Breed> breeds = new();
+
         public IEnumerable<Lineage> Lineages => lineages.AsEnumerable();
         [SerializeField]
         private List<Lineage> lineages = new();

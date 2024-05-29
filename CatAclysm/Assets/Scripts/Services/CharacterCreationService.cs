@@ -1,5 +1,6 @@
 using CatAclysm.Character;
 using CatAclysm.Character.Library;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -18,9 +19,11 @@ namespace CatAclysm.Services
         [Range(20, 28)]
         private int characterCreationPointsCapital = 28;
 
+        public IEnumerable<Breed> Breeds => characterAttributesLibrary.Breeds;
+
         private void OnEnable()
         {
-            InitCat(); 
+            InitCat();
         }
 
         [ContextMenu("Create new cat")]

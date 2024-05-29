@@ -40,5 +40,7 @@ namespace CatAclysm.Character
         protected override void ConsumePoints(Cat cat, int numberOfPoints) => cat.SkillPoints -= numberOfPoints;
         protected override void RefundPoints(Cat cat, int numberOfPoints) => cat.SkillPoints += numberOfPoints;
         protected override void ResetPoints(Cat cat) => cat.SkillPoints = 0;
+
+        public override string ToString() => name;
     }
 }
