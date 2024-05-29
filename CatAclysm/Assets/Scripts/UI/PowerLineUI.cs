@@ -20,6 +20,29 @@ namespace CatAclysm.UI
         [SerializeField]
         protected Button upArrow;
 
+        public Power Power { get; set; }
+
+        protected virtual void OnEnable()
+        {
+            powerName.text = Power.name;
+            rank.text = Power.Rank.ToString();
+            currentRank = Power.Rank;
+            Power.RankChanged += Power_RankChanged;
+            CheckButtonsVisibilities();
+        }
+
+        private void OnDisable()
+        {
+            Power.RankChanged -= Power_RankChanged;
+        }
+
+        private void Power_RankChanged(object sender, int e)
+        {
+            rank.text = e.ToString();
+            currentRank = e;
+            CheckButtonsVisibilities();
+        }
+
         protected virtual void CheckButtonsVisibilities()
         {
             downArrow.gameObject.SetActive(currentRank != 0);

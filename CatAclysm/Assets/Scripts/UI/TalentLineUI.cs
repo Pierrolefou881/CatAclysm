@@ -1,15 +1,15 @@
+using CatAclysm.Behavior;
+using CatAclysm.Character;
+using UnityEngine;
+
 namespace CatAclysm.UI
 {
     public class TalentLineUI : PowerLineUI
     {
-        public override void PurchaseNextRank()
-        {
-            throw new System.NotImplementedException();
-        }
+        [SerializeField]
+        private CatTalentExpositionBehavior talentExpositionBehavior;
 
-        public override void RestoreToPreviousRank()
-        {
-            throw new System.NotImplementedException();
-        }
+        public override void PurchaseNextRank() => talentExpositionBehavior.SetTalentToRank(currentRank + 1, Power.name);
+        public override void RestoreToPreviousRank() => talentExpositionBehavior.SetTalentToRank(currentRank - 1, Power.name);
     }
 }
