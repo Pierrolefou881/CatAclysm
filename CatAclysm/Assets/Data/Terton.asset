@@ -96,6 +96,22 @@ MonoBehaviour:
   row: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &-8284222577062399149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  baseSkill: 0
+  row: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &-8266318024705227549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,29 +812,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb509c2eeeb56e499ab12eeca19c09c, type: 3}
   m_Name: Terton
   m_EditorClassIdentifier: 
-  catName: Ra Ri
+  catName: Mra Iv
   nickName: 
   age: 7
   portrait: {fileID: 0}
   breed: {fileID: 0}
-  lineage: Pattes touffues
+  lineage: "Cou dress\xE9"
   reputation: 0
   faction: 
   qualities: []
   drawbacks: []
-  griffe: 1
-  poil: 1
-  oeil: 1
-  queue: 1
-  caresse: 1
-  ronronnement: 1
-  coussinet: 1
-  vibrisse: 1
-  luck: 1
+  griffe: 5
+  poil: 5
+  oeil: 5
+  queue: 5
+  caresse: 5
+  ronronnement: 5
+  coussinet: 5
+  vibrisse: 5
+  luck: 3
   skills:
-  - {fileID: 750729425082485647}
+  - {fileID: 5305799228543077326}
   talents: []
-  remainingBaseStatPoints: 0
+  remainingBaseStatPoints: -6
 --- !u!114 &40986515792330316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,6 +916,22 @@ MonoBehaviour:
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
 --- !u!114 &750729425082485647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  baseSkill: 0
+  row: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
+--- !u!114 &784275990389173819
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1219,6 +1251,38 @@ MonoBehaviour:
   row: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &5122840344899740719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  baseSkill: 0
+  row: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
+--- !u!114 &5305799228543077326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  baseSkill: 0
+  row: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &5329137839793253973
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -41,12 +41,14 @@ namespace CatAclysm.UI
         {
             selectedPhysicCharacteristic = GetSelectedNumber(selectedPhysicCharacteristic, prev, physicCharacteristics.Count);
             physicSelectedCharacteristic.text = ((PhysicCharacteristics)selectedPhysicCharacteristic).ToString();
+            CheckAndDisableButtons();
         }
 
         public void SelectMentalSkill(bool prev)
         {
             selectedMentalCharacteristic = GetSelectedNumber(selectedMentalCharacteristic, prev, mentalCharacteristics.Count);
             mentalSelectedCharacteristic.text = ((MentalCharacteristics)selectedMentalCharacteristic).ToString();
+            CheckAndDisableButtons();
         }
 
         public int GetSelectedNumber(int selectedCharacteristic, bool prev, int count)
@@ -84,6 +86,7 @@ namespace CatAclysm.UI
                     catBaseStatExpositionBehavior.SetQueue(newValue); 
                     break;
             }
+            CheckAndDisableButtons();
         }
 
         public void ModifyMentalValue(bool decrement)
@@ -100,11 +103,13 @@ namespace CatAclysm.UI
                 case MentalCharacteristics.Vibrisse:
                     catBaseStatExpositionBehavior.SetVibrisse(newValue); break;
             }
+            CheckAndDisableButtons();
         }
 
         public void ModifyChanceValue(bool decrement)
         {
             catBaseStatExpositionBehavior.SetLuck(GetNewCharacteristicValue(luckCharacteristic.text, decrement, true));
+            CheckAndDisableButtons();
         }
 
         private int GetNewCharacteristicValue(string text, bool decrement, bool isLuck = false)
@@ -140,34 +145,42 @@ namespace CatAclysm.UI
             //Min Value
         }
 
+        public void CheckAndDisableButtons()
+        {
+            CheckAndDisablePhysicButton();
+            CheckAndDisableMentalButton();
+            CheckAndDisableLuckButton();
+            CheckAndDisableIncrButton(remainingPoints.text);
+        }
+
         public void CheckAndDisablePhysicButton()
         {
             int.TryParse(physicCharacteristics[selectedPhysicCharacteristic].text, out int JenAiMarreDeUnity);
             decrPhysic.gameObject.SetActive(JenAiMarreDeUnity > 1);
-            incrPhysic.gameObject.SetActive(JenAiMarreDeUnity <= 5);
+            incrPhysic.gameObject.SetActive(JenAiMarreDeUnity < 5);
         }
 
         public void CheckAndDisableMentalButton()
         {
             int.TryParse(mentalCharacteristics[selectedMentalCharacteristic].text, out int JenAiMarreDeUnity);
             decrMental.gameObject.SetActive(JenAiMarreDeUnity > 1);
-            incrMental.gameObject.SetActive(JenAiMarreDeUnity <= 5);
+            incrMental.gameObject.SetActive(JenAiMarreDeUnity < 5);
         }
 
         public void CheckAndDisableLuckButton()
         {
             int.TryParse(luckCharacteristic.text, out int JenAiMarreDeUnity);
             decrLuck.gameObject.SetActive(JenAiMarreDeUnity > 1);
-            incrLuck.gameObject.SetActive(JenAiMarreDeUnity <= 3);
+            incrLuck.gameObject.SetActive(JenAiMarreDeUnity < 3);
         }
 
         public void CheckAndDisableIncrButton(string nbPointsTxt)
         {
             int.TryParse(nbPointsTxt, out int nbPoints);
-            bool disable = nbPoints <= 0;
-            incrPhysic.gameObject.SetActive(disable);
-            incrMental.gameObject.SetActive(disable);
-            incrLuck.gameObject.SetActive(disable);
+            bool enable = nbPoints > 0;
+            incrPhysic.gameObject.SetActive(enable);
+            incrMental.gameObject.SetActive(enable);
+            incrLuck.gameObject.SetActive(enable);
         }
 
         public void ResetSkills()
@@ -185,9 +198,7 @@ namespace CatAclysm.UI
             catBaseStatExpositionBehavior.SetVibrisse(1);
             catBaseStatExpositionBehavior.SetRonronnement(1);
             catBaseStatExpositionBehavior.SetCaresse(1);
-            CheckAndDisablePhysicButton();
-            CheckAndDisableMentalButton();
-            CheckAndDisableLuckButton();
+            CheckAndDisableButtons();
         }
 
         private void Start()
