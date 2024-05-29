@@ -11,26 +11,15 @@ namespace CatAclysm.Behavior
         private Cat cat;
 
         [SerializeField]
-        private UnityEvent<TalentEventArgs> talentChanged;
-
-        [SerializeField]
         private UnityEvent<int> talentPointsChanged;
 
         private void OnEnable()
         {
             cat.TalentPointsChanged += Cat_TalentPointsChanged;
-            foreach (var t in cat.Talents) 
-            {
-                t.RankChanged += Talent_RankChanged;
-            }
         }
 
         private void OnDisable()
         {
-            foreach (var t in cat.Talents)
-            {
-                t.RankChanged += Talent_RankChanged;
-            }
             cat.TalentPointsChanged -= Cat_TalentPointsChanged;
         }
 
@@ -60,13 +49,5 @@ namespace CatAclysm.Behavior
 
         private void Cat_TalentPointsChanged(object sender, int e)
             => talentPointsChanged.Invoke(e);
-
-        private void Talent_RankChanged(object sender, int e)
-        {
-            if (sender is Talent talent) 
-            {
-                talentChanged.Invoke(new TalentEventArgs(talent.name, talent.Rank));
-            }
-        }
     }
 }
