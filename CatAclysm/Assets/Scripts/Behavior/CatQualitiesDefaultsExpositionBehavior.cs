@@ -28,6 +28,8 @@ namespace CatAclysm.Behavior
             }
         }
 
+        public bool RemoveCatQuality(Quality quality) => cat.Qualities.Remove(quality);
+
         public void AddCatDrawback(Drawback drawbacks)
         {
             if (!cat.Drawbacks.Contains(drawbacks))
@@ -35,5 +37,7 @@ namespace CatAclysm.Behavior
                 cat.Drawbacks.Add(drawbacks);
             }
         }
+
+        public bool RemoveCatDrawback(Drawback drawbacks) => cat.Drawbacks.Remove(drawbacks);
     }
 }
