@@ -6,6 +6,6 @@ namespace CatAclysm.Services
     public class DiceService : ScriptableObject
     {
         public int Roll(int faces, int numberOfRolls = 1)
-            => numberOfRolls == 1 ? Random.Range(1, faces) : Roll(faces, numberOfRolls - 1) + Random.Range(1, faces);
+            => numberOfRolls == 1 ? Random.Range(1, faces+1) : Roll(faces, numberOfRolls - 1) + Random.Range(1, faces+1);
     }
 }
