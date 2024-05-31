@@ -1,5 +1,5 @@
-using CatAclysm.Behavior.Events;
 using CatAclysm.Character;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,7 +11,9 @@ namespace CatAclysm.Behavior
         private Cat cat;
 
         [SerializeField]
-        private UnityEvent<int> talentPointsChanged;
+        private UnityEvent<string> talentPointsChanged;
+
+        public List<Talent> Talents => cat.Talents;
 
         private void OnEnable()
         {
@@ -48,6 +50,6 @@ namespace CatAclysm.Behavior
         }
 
         private void Cat_TalentPointsChanged(object sender, int e)
-            => talentPointsChanged.Invoke(e);
+            => talentPointsChanged.Invoke(e.ToString());
     }
 }

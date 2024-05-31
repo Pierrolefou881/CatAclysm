@@ -394,9 +394,9 @@ namespace CatAclysm.Character
 
 #if UNITY_EDITOR
             skills.ForEach(s => AssetDatabase.RemoveObjectFromAsset(s));
+            talents.ForEach(t => AssetDatabase.RemoveObjectFromAsset(t));
 #endif
 
-            skills = defaultSkills.ToList();
 #if UNITY_EDITOR
             UnityEditor.EditorUtility.SetDirty(this);
             foreach (var skill in Skills)
@@ -404,10 +404,15 @@ namespace CatAclysm.Character
                 skill.name = skill.name.Replace("(Clone)", string.Empty);
                 AssetDatabase.AddObjectToAsset(skill, this);
                 EditorUtility.SetDirty(skill);
+            }
 
+            foreach (var talent in Talents)
+            {
+                talent.name = talent.name.Replace("(Clone)", string.Empty);
+                AssetDatabase.AddObjectToAsset(talent, this);
+                EditorUtility.SetDirty(talent);
             }
 #endif
-            talents = new List<Talent>();
         }
 
         public int GetBaseStatByEnum(Characteristics characteristics)

@@ -19,8 +19,8 @@ namespace CatAclysm.UI.Navigation
         { 
             if (next != null) 
             {
-                gameObject.SetActive(false);
                 next.gameObject.SetActive(true);
+                gameObject.SetActive(false);
             }
         }
 
@@ -28,8 +28,8 @@ namespace CatAclysm.UI.Navigation
         { 
             if (previous != null) 
             {
-                gameObject.SetActive(false);
                 previous.gameObject.SetActive(true);
+                gameObject.SetActive(false);
             }
         }
 
