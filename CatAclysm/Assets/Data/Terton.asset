@@ -238,6 +238,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &-9155158711487808523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Connaissance_Rue
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 7
 --- !u!114 &-9147014639235324097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2043,6 +2060,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &-8739792326121973257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Teleportation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut t\xE9l\xE9porter (rangs) personnes ou un objet
+    de (5  \xD7 rang) kg maximum dans un rayon de (20 \xD7 rangs) km."
 --- !u!114 &-8739250420248269048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2367,6 +2400,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 7
+--- !u!114 &-8630726200385863875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Usses_Coutumes
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &-8624247317612133169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2591,6 +2641,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-8562761997447425613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Force
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage ajoute (rangs) point de plus \xE0 son score de Griffe,
+    et  ce, durant (5 \xD7 rangs) minutes."
 --- !u!114 &-8552190847925848657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2642,6 +2708,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &-8534271160456121119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Leadership
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &-8531039436941246028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3474,6 +3557,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-8301984720651679098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Leadership
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &-8301272403042515353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4305,6 +4405,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-8131182884837888329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Controle gravitationnel
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut faire des sauts ou des bonds de (5 \xD7 rang) 
+    m\xE8tres."
 --- !u!114 &-8124892485746126887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5556,6 +5672,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 1
+--- !u!114 &-7797012769699020801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Prescience
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage lance (rang) d\xE9s suppl\xE9mentaires \xE0 un jet
+    autre  qu\u2019un jet concernant une caract\xE9ristique."
 --- !u!114 &-7796118661206236233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6234,6 +6366,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &-7601930488425393301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reperer_Trouver
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 8
 --- !u!114 &-7595648856440180229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8596,6 +8745,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &-7040676776467044200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: "D\xE9placement temporel"
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut projeter son esprit et celui de (rang \u20131) 
+    compagnons en avan\xE7ant ou en reculant dans le temps de (5 \xD7  rang) minutes."
 --- !u!114 &-7034492797347777262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9240,6 +9405,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-6886830094952994028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclamer_manger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &-6881099375325211033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9702,6 +9884,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-6779008018076889869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Teleportation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut t\xE9l\xE9porter (rangs) personnes ou un objet
+    de (5  \xD7 rang) kg maximum dans un rayon de (20 \xD7 rangs) km."
 --- !u!114 &-6777476625896402088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10551,6 +10749,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &-6586013673413788184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Telekinesie
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut d\xE9placer, d\xE9former ou ralentir un objet
+    de  moins de (20 \xD7 rangs) kg durant (5 \xD7 rangs) secondes."
 --- !u!114 &-6584216496610532907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11535,6 +11749,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-6331552208157969681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Discretion
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 0
 --- !u!114 &-6324134822036708858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11942,6 +12173,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   description: "Le personnage peut passer au travers de n\u2019importe quelle mati\xE8re 
     de moins de (10 \xD7 rangs) centim\xE8tres d\u2019\xE9paisseur."
+--- !u!114 &-6231629969420672210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclam_caresses
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &-6226791570942197877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12978,6 +13226,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-5947556564725545137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Clairvoyance
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut voir dans les lieux distants dans un rayon  de\u202F15,\u202F30,\u202F60,120
+    ou\u202F250\u202Fm (selon que le talent est activ\xE9 au  rang\u202F1,\u202F2,\u202F3,\u202F4
+    ou\u202F5) centr\xE9 sur lui, et ce, durant (5 \xD7 rang) minutes. La  zone d\u2019effet
+    se d\xE9place avec le chat durant toute sa dur\xE9e effective."
 --- !u!114 &-5943681335585054013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13422,6 +13688,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &-5851240333477206581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Poltergeist
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage donne un coup \xE9quivalent \xE0 un score de (rangs)
+    en  Griffe via une force invisible qu\u2019il contr\xF4le."
 --- !u!114 &-5848703274456163065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14193,6 +14475,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-5661856215994872675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Armure
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage r\xE9duit imm\xE9diatement tous ses niveaux de  blessures
+    de (rangs) points durant (5 \xD7 rang) secondes."
 --- !u!114 &-5660537400451622925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14584,6 +14882,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-5618048526174047827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Sommeil
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage endort tous les \xEAtres humains pr\xE9sents dans une 
+    sph\xE8re de (5 \xD7 rangs) m\xE8tres de diam\xE8tre pour une dur\xE9e \xE9gale
+    \xE0  (rang \xD7\u202F1d10) minutes."
 --- !u!114 &-5617611487165956169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15042,6 +15357,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 8
+  secondaryCharacteristics: 0
+--- !u!114 &-5467031049307157551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Usses_Coutumes
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
   secondaryCharacteristics: 0
 --- !u!114 &-5454462023115950902
 MonoBehaviour:
@@ -16062,6 +16394,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-5220756211001720182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Allergene
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Les humains sont affect\xE9s dans un rayon de (5 \xD7 rangs) m\xE8tres 
+    centr\xE9 sur le chat activant son talent. Ils subissent alors un malus  de -(rang)
+    \xE0 toutes leurs actions durant (5 \xD7 rang) minutes. La zone  d\u2019effet
+    se d\xE9place avec le chat durant toute sa dur\xE9e effective."
 --- !u!114 &-5215866741605204730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16554,6 +16904,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &-5090635814662481757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Regeneration
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage r\xE9cup\xE8re (rangs) niveaux de blessure toutes les\u202F2\u202Fh 
+    au rang\u202F1, toutes les heures au rang\u202F2, toutes les\u202F30\u202Fmin
+    au rang\u202F3,  toutes les\u202F15\u202Fmin au rang\u202F4 et toutes les\u202F5\u202Fmin
+    au rang\u202F5."
 --- !u!114 &-5082091220175006658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16622,6 +16990,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 1
+--- !u!114 &-5066965816928463404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Langage_Humain
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &-5066383109635463685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16706,6 +17091,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-5046928304795888829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Brouilleur
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "(rang) appareils \xE9lectroniques sont affect\xE9s dans un rayon
+    de (5  \xD7 rangs) centr\xE9 sur le chat activant son talent durant (5 \xD7 rang) 
+    minutes. La zone d\u2019effet se d\xE9place avec le chat durant toute sa  dur\xE9e
+    effective."
 --- !u!114 &-5045558224225116961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17438,6 +17841,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &-4858455381336103859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Prescience
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage lance (rang) d\xE9s suppl\xE9mentaires \xE0 un jet
+    autre  qu\u2019un jet concernant une caract\xE9ristique."
 --- !u!114 &-4858253744206871268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19355,6 +19774,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &-4414370777930429629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Passe_muraille
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut passer au travers de n\u2019importe quelle mati\xE8re 
+    de moins de (10 \xD7 rangs) centim\xE8tres d\u2019\xE9paisseur."
 --- !u!114 &-4414228898691447288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20355,6 +20790,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &-4165070228023790619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Pesanteur
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "La victime voit son poids multipli\xE9 par (2 \xD7 rangs) durant
+    (5 \xD7  rangs) minutes. En cas de r\xE9ussite de son jet de Griffe, il a un 
+    malus de -(rang) sur toutes ses actions physiques. En cas d\u2019\xE9chec,  il
+    est immobilis\xE9."
 --- !u!114 &-4153366283843434984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20644,6 +21097,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 7
+  secondaryCharacteristics: 0
+--- !u!114 &-4064142760002921555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
   secondaryCharacteristics: 0
 --- !u!114 &-4061418251063108622
 MonoBehaviour:
@@ -21375,6 +21845,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-3879318000277332223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Allergene
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Les humains sont affect\xE9s dans un rayon de (5 \xD7 rangs) m\xE8tres 
+    centr\xE9 sur le chat activant son talent. Ils subissent alors un malus  de -(rang)
+    \xE0 toutes leurs actions durant (5 \xD7 rang) minutes. La zone  d\u2019effet
+    se d\xE9place avec le chat durant toute sa dur\xE9e effective."
 --- !u!114 &-3876188891074440318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21426,6 +21914,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &-3866311632024329692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Discretion
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 0
 --- !u!114 &-3864378113486193182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24285,6 +24790,24 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   description: "Le personnage lance (rang) d\xE9s suppl\xE9mentaires \xE0 un jet
     autre  qu\u2019un jet concernant une caract\xE9ristique."
+--- !u!114 &-3148158764072020116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Sixieme sens
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "La meneuse de jeu informe le joueur d\u2019un danger potentiel et
+    ce  dernier peut lui poser (rangs) questions dont les r\xE9ponses sont  obligatoirement
+    \xAB\u2009Oui\u2009\xBB ou \xAB\u2009Non\u2009\xBB afin d\u2019en d\xE9terminer
+    la nature."
 --- !u!114 &-3145136411753424671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27195,6 +27718,24 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   description: "Le personnage peut faire des sauts ou des bonds de (5 \xD7 rang) 
     m\xE8tres."
+--- !u!114 &-2446100162974842269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Clairvoyance
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut voir dans les lieux distants dans un rayon  de\u202F15,\u202F30,\u202F60,120
+    ou\u202F250\u202Fm (selon que le talent est activ\xE9 au  rang\u202F1,\u202F2,\u202F3,\u202F4
+    ou\u202F5) centr\xE9 sur lui, et ce, durant (5 \xD7 rang) minutes. La  zone d\u2019effet
+    se d\xE9place avec le chat durant toute sa dur\xE9e effective."
 --- !u!114 &-2445286010954452797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27211,6 +27752,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 3
+  secondaryCharacteristics: 0
+--- !u!114 &-2438861065964380850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: CultureG
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
   secondaryCharacteristics: 0
 --- !u!114 &-2438446784718784680
 MonoBehaviour:
@@ -27331,6 +27889,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 7
+--- !u!114 &-2423557886370855372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclam_caresses
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &-2423088334870714167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30001,6 +30576,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-1817589907683552190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Odorat
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &-1814084057834212186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32332,6 +32924,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-1299657304097270946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Allergene
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Les humains sont affect\xE9s dans un rayon de (5 \xD7 rangs) m\xE8tres 
+    centr\xE9 sur le chat activant son talent. Ils subissent alors un malus  de -(rang)
+    \xE0 toutes leurs actions durant (5 \xD7 rang) minutes. La zone  d\u2019effet
+    se d\xE9place avec le chat durant toute sa dur\xE9e effective."
 --- !u!114 &-1299251155494150235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33675,6 +34285,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &-978750153275903839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Enerv.Hum.
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 6
 --- !u!114 &-978022064013623674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33964,6 +34591,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &-916777706223712706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Force
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage ajoute (rangs) point de plus \xE0 son score de Griffe,
+    et  ce, durant (5 \xD7 rangs) minutes."
 --- !u!114 &-905466798228628504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35612,6 +36255,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 8
+--- !u!114 &-468006906339472071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Escalade
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 1
 --- !u!114 &-461487615320394071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37285,12 +37945,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb509c2eeeb56e499ab12eeca19c09c, type: 3}
   m_Name: Terton
   m_EditorClassIdentifier: 
-  catName: Mi Rou
+  catName: Wra Ou
   nickName: 
   age: 7
   portrait: {fileID: 0}
   breed: {fileID: 0}
-  lineage: Pattes silencieuses
+  lineage: Queue touffue
   reputation: 0
   faction: 
   qualities:
@@ -37306,49 +37966,49 @@ MonoBehaviour:
   vibrisse: 1
   luck: 1
   skills:
-  - {fileID: -6369142462173060588}
-  - {fileID: 8558327464269406373}
-  - {fileID: -221676294158209615}
-  - {fileID: 3958571212556640748}
-  - {fileID: -5420295942022714148}
-  - {fileID: 1312658099470950925}
-  - {fileID: -3477654824772742118}
-  - {fileID: -7896543558181025830}
-  - {fileID: -4110246205157926404}
-  - {fileID: 4520944612552946321}
-  - {fileID: 4264599381821119566}
-  - {fileID: -2617213619039633989}
-  - {fileID: 6169642580821988298}
-  - {fileID: 1787202116889628705}
-  - {fileID: -3475656742809253905}
-  - {fileID: 497797736405662073}
-  - {fileID: 145100642098715589}
-  - {fileID: 723720696359663904}
-  - {fileID: 9111864749481999765}
+  - {fileID: 2423194070923639971}
+  - {fileID: 635310898676627985}
+  - {fileID: 8782847054391805046}
+  - {fileID: 2277693494860945819}
+  - {fileID: -6331552208157969681}
+  - {fileID: 7600415246488007706}
+  - {fileID: -468006906339472071}
+  - {fileID: 6686309093677593760}
+  - {fileID: -8534271160456121119}
+  - {fileID: 3974881886265564069}
+  - {fileID: 6394655570169743469}
+  - {fileID: -4064142760002921555}
+  - {fileID: -6231629969420672210}
+  - {fileID: -6886830094952994028}
+  - {fileID: 1114754816894548108}
+  - {fileID: 1518637064124321504}
+  - {fileID: 5420612015575549893}
+  - {fileID: 5467521793445944410}
+  - {fileID: -8630726200385863875}
   talents:
-  - {fileID: 7107839706604199193}
-  - {fileID: -3911314366222808979}
-  - {fileID: -4604274121863630808}
-  - {fileID: -7283080868529116274}
-  - {fileID: 8898067460146977564}
-  - {fileID: -6838088437981334886}
-  - {fileID: -100089787707042807}
-  - {fileID: -888358099051348322}
-  - {fileID: -5579919557072768784}
-  - {fileID: -2661507369216414020}
-  - {fileID: 6304059452562494142}
-  - {fileID: -8999625924760970720}
-  - {fileID: -6241706743068404319}
-  - {fileID: 1799685058068971066}
-  - {fileID: -875617875375630873}
-  - {fileID: -7374512824828965804}
-  - {fileID: -4516839868198719954}
-  - {fileID: 3348153911231444123}
-  - {fileID: -2574521376312116717}
-  - {fileID: -8124219465049781375}
-  - {fileID: 2990335486213931654}
-  - {fileID: 1086915741874710533}
-  - {fileID: -6137470140382096669}
+  - {fileID: -3879318000277332223}
+  - {fileID: 4159674382670093541}
+  - {fileID: 4306763044415290994}
+  - {fileID: 7518958871462631305}
+  - {fileID: 4842119759016595803}
+  - {fileID: -2446100162974842269}
+  - {fileID: 2008480148468348480}
+  - {fileID: 3944140933222577320}
+  - {fileID: 2682163950764009881}
+  - {fileID: 6453006979690759729}
+  - {fileID: -916777706223712706}
+  - {fileID: 6331759164822272722}
+  - {fileID: 8418356279724977845}
+  - {fileID: -4165070228023790619}
+  - {fileID: 4045104976271558739}
+  - {fileID: 4164792949725389796}
+  - {fileID: -7797012769699020801}
+  - {fileID: -5090635814662481757}
+  - {fileID: 7585536378475970959}
+  - {fileID: -5618048526174047827}
+  - {fileID: 2094861662342772098}
+  - {fileID: 1399362762322985244}
+  - {fileID: -6779008018076889869}
   remainingBaseStatPoints: 28
 --- !u!114 &4199463671279625
 MonoBehaviour:
@@ -39001,6 +39661,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 0
+--- !u!114 &416448505737048859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &422619807253635832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39781,6 +40458,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &635310898676627985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Combat_griffu
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 1
+  secondaryCharacteristics: 3
 --- !u!114 &639629071057251312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40121,6 +40815,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 1
+--- !u!114 &713289858783646638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Seduire
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &713529215887946411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41026,6 +41737,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 8
+--- !u!114 &898194513804632844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Hypnose
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut effacer les (5 \xD7 rangs) derni\xE8res minutes
+    de la  m\xE9moire d\u2019un \xEAtre humain, ou bien implanter un faux souvenir 
+    remontant \xE0 (rangs) jour(s)."
 --- !u!114 &906329925425362817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41841,6 +42569,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &1114754816894548108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reperer_Trouver
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 8
 --- !u!114 &1115730867617154339
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42965,6 +43710,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &1399362762322985244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Telepathie
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut contacter par t\xE9l\xE9pathie (rangs) personnes 
+    dans un rayon maximum de (20 \xD7 rangs) km."
 --- !u!114 &1402350542411292603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43458,6 +44219,23 @@ MonoBehaviour:
   primaryCharacteristics: 4
   secondaryCharacteristics: 0
 --- !u!114 &1516030710246772859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Saut
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 3
+--- !u!114 &1518637064124321504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -45315,6 +46093,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &2008480148468348480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Controle gravitationnel
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut faire des sauts ou des bonds de (5 \xD7 rang) 
+    m\xE8tres."
 --- !u!114 &2012809397588215304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45332,6 +46126,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &2013111294660891916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &2015731455596912128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45585,6 +46396,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &2080915231026707857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Orientation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 8
+  secondaryCharacteristics: 0
 --- !u!114 &2091446442813313430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -45602,6 +46430,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 8
+--- !u!114 &2094861662342772098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Telekinesie
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut d\xE9placer, d\xE9former ou ralentir un objet
+    de  moins de (20 \xD7 rangs) kg durant (5 \xD7 rangs) secondes."
 --- !u!114 &2101063761888279041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46346,6 +47190,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 8
+--- !u!114 &2277693494860945819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: CultureG
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &2287417592657235262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46823,6 +47684,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 8
   secondaryCharacteristics: 0
+--- !u!114 &2423194070923639971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &2425471142866523336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47873,6 +48751,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &2682163950764009881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: "D\xE9placement temporel"
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut projeter son esprit et celui de (rang \u20131) 
+    compagnons en avan\xE7ant ou en reculant dans le temps de (5 \xD7  rang) minutes."
 --- !u!114 &2693407683193635112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49927,6 +50821,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &3149681892450679462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Telepathie
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut contacter par t\xE9l\xE9pathie (rangs) personnes 
+    dans un rayon maximum de (20 \xD7 rangs) km."
 --- !u!114 &3152426455797428532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51286,6 +52196,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &3548285550841453828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Combat_griffu
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 1
+  secondaryCharacteristics: 3
 --- !u!114 &3555386854569769874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52676,6 +53603,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &3944140933222577320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Controle mental
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut contr\xF4ler un \xEAtre humain durant (5 \xD7
+    rang)  minutes si ce dernier rate son jet de Caresse."
 --- !u!114 &3949358961546356457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52829,6 +53772,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &3974881886265564069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Odorat
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &3977721627239832621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53150,6 +54110,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &4045104976271558739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Allergene
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Les humains sont affect\xE9s dans un rayon de (5 \xD7 rangs) m\xE8tres 
+    centr\xE9 sur le chat activant son talent. Ils subissent alors un malus  de -(rang)
+    \xE0 toutes leurs actions durant (5 \xD7 rang) minutes. La zone  d\u2019effet
+    se d\xE9place avec le chat durant toute sa dur\xE9e effective."
 --- !u!114 &4056951531034439561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53709,6 +54687,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &4159674382670093541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Armure
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage r\xE9duit imm\xE9diatement tous ses niveaux de  blessures
+    de (rangs) points durant (5 \xD7 rang) secondes."
 --- !u!114 &4161328616281255663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53726,6 +54720,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &4164792949725389796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Poltergeist
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage donne un coup \xE9quivalent \xE0 un score de (rangs)
+    en  Griffe via une force invisible qu\u2019il contr\xF4le."
 --- !u!114 &4172464871064398781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53743,6 +54753,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &4173292017501772708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Sommeil
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage endort tous les \xEAtres humains pr\xE9sents dans une 
+    sph\xE8re de (5 \xD7 rangs) m\xE8tres de diam\xE8tre pour une dur\xE9e \xE9gale
+    \xE0  (rang \xD7\u202F1d10) minutes."
 --- !u!114 &4179383538750169790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54222,6 +55249,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 7
+--- !u!114 &4306763044415290994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Arret temporel
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut figer le temps sur une p\xE9riode de (5 \xD7 rangs) 
+    secondes."
 --- !u!114 &4307282755390468752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56777,6 +57820,25 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &4842119759016595803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Clairaudience
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut entendre dans les lieux distants dans un  rayon
+    de\u202F15,\u202F30,\u202F60,120 ou\u202F250\u202Fm (selon que le talent est
+    activ\xE9 au  rang\u202F1,\u202F2,\u202F3,\u202F4 ou\u202F5) centr\xE9 sur lui,
+    et ce, durant (5 \xD7 rang) minutes.  La zone d\u2019effet se d\xE9place avec
+    le chat durant toute sa dur\xE9e  effective."
 --- !u!114 &4844375125291991527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57544,6 +58606,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &5046916262787778079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Saut
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 3
 --- !u!114 &5054185678572800846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59103,6 +60182,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &5420612015575549893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Seduire
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &5420746176754046498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59254,6 +60350,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 6
+  secondaryCharacteristics: 0
+--- !u!114 &5467521793445944410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Use_Obj_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 3
   secondaryCharacteristics: 0
 --- !u!114 &5471632485874012792
 MonoBehaviour:
@@ -60428,6 +61541,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &5778176976935070795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Escalade
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 1
 --- !u!114 &5779132011573246086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61108,6 +62238,25 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &5907671413562211529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Effet Schrodinger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le joueur peut d\xE9doubler son personnage et g\xE9rer ses doubles 
+    durant (rang) minutes. Si les deux personnages sont vus en  m\xEAme temps par
+    un \xEAtre humain, un chat d\xE9g\xE9n\xE9r\xE9 ou tout autre  \xEAtre vivant
+    ayant un niveau de conscience animal, l\u2019un des deux  personnages dispara\xEEt
+    et l\u2019autre re\xE7oit (rangs) niveaux de blessure."
 --- !u!114 &5907994386321941488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61768,6 +62917,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &6091588800790929734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Regeneration
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage r\xE9cup\xE8re (rangs) niveaux de blessure toutes les\u202F2\u202Fh 
+    au rang\u202F1, toutes les heures au rang\u202F2, toutes les\u202F30\u202Fmin
+    au rang\u202F3,  toutes les\u202F15\u202Fmin au rang\u202F4 et toutes les\u202F5\u202Fmin
+    au rang\u202F5."
 --- !u!114 &6091618201893063054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62768,6 +63935,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &6331759164822272722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Hypnose
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut effacer les (5 \xD7 rangs) derni\xE8res minutes
+    de la  m\xE9moire d\u2019un \xEAtre humain, ou bien implanter un faux souvenir 
+    remontant \xE0 (rangs) jour(s)."
 --- !u!114 &6332023629683166105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62954,6 +64138,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 7
+  secondaryCharacteristics: 0
+--- !u!114 &6394655570169743469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Orientation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 8
   secondaryCharacteristics: 0
 --- !u!114 &6403630552206425875
 MonoBehaviour:
@@ -63210,6 +64411,25 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &6453006979690759729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Effet Schrodinger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le joueur peut d\xE9doubler son personnage et g\xE9rer ses doubles 
+    durant (rang) minutes. Si les deux personnages sont vus en  m\xEAme temps par
+    un \xEAtre humain, un chat d\xE9g\xE9n\xE9r\xE9 ou tout autre  \xEAtre vivant
+    ayant un niveau de conscience animal, l\u2019un des deux  personnages dispara\xEEt
+    et l\u2019autre re\xE7oit (rangs) niveaux de blessure."
 --- !u!114 &6457274267883026927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64078,6 +65298,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &6686309093677593760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Langage_Humain
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &6689907827476023294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66085,6 +67322,25 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &7154057182772346300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Clairaudience
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut entendre dans les lieux distants dans un  rayon
+    de\u202F15,\u202F30,\u202F60,120 ou\u202F250\u202Fm (selon que le talent est
+    activ\xE9 au  rang\u202F1,\u202F2,\u202F3,\u202F4 ou\u202F5) centr\xE9 sur lui,
+    et ce, durant (5 \xD7 rang) minutes.  La zone d\u2019effet se d\xE9place avec
+    le chat durant toute sa dur\xE9e  effective."
 --- !u!114 &7157112512117202792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67566,6 +68822,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 8
   secondaryCharacteristics: 0
+--- !u!114 &7518958871462631305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Brouilleur
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "(rang) appareils \xE9lectroniques sont affect\xE9s dans un rayon
+    de (5  \xD7 rangs) centr\xE9 sur le chat activant son talent durant (5 \xD7 rang) 
+    minutes. La zone d\u2019effet se d\xE9place avec le chat durant toute sa  dur\xE9e
+    effective."
 --- !u!114 &7520940058634989520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67787,6 +69061,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &7585536378475970959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Sixieme sens
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "La meneuse de jeu informe le joueur d\u2019un danger potentiel et
+    ce  dernier peut lui poser (rangs) questions dont les r\xE9ponses sont  obligatoirement
+    \xAB\u2009Oui\u2009\xBB ou \xAB\u2009Non\u2009\xBB afin d\u2019en d\xE9terminer
+    la nature."
 --- !u!114 &7586815724245506204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67821,6 +69113,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &7600415246488007706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Enerv.Hum.
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 6
 --- !u!114 &7600732912012137049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70148,6 +71457,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   description: "Le personnage peut faire des sauts ou des bonds de (5 \xD7 rang) 
     m\xE8tres."
+--- !u!114 &8225100559081746581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Use_Obj_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 3
+  secondaryCharacteristics: 0
 --- !u!114 &8226373078307511424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70997,6 +72323,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &8418356279724977845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Passe_muraille
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut passer au travers de n\u2019importe quelle mati\xE8re 
+    de moins de (10 \xD7 rangs) centim\xE8tres d\u2019\xE9paisseur."
 --- !u!114 &8423659834579736254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71234,6 +72576,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &8471097526505060272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclamer_manger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &8472565444014583443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71302,6 +72661,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &8490920871108919517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Arret temporel
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut figer le temps sur une p\xE9riode de (5 \xD7 rangs) 
+    secondes."
 --- !u!114 &8493326815041265623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71353,6 +72728,22 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &8501656205514395704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Controle mental
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "Le personnage peut contr\xF4ler un \xEAtre humain durant (5 \xD7
+    rang)  minutes si ce dernier rate son jet de Caresse."
 --- !u!114 &8503734604517250166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72353,6 +73744,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 0
+--- !u!114 &8782847054391805046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Connaissance_Rue
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 7
 --- !u!114 &8783351624891757395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73360,6 +74768,24 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &9008830017263463177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 876a0713d0c62d741bdc9188b140c7ea, type: 3}
+  m_Name: Pesanteur
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  description: "La victime voit son poids multipli\xE9 par (2 \xD7 rangs) durant
+    (5 \xD7  rangs) minutes. En cas de r\xE9ussite de son jet de Griffe, il a un 
+    malus de -(rang) sur toutes ses actions physiques. En cas d\u2019\xE9chec,  il
+    est immobilis\xE9."
 --- !u!114 &9014600952272367704
 MonoBehaviour:
   m_ObjectHideFlags: 0
