@@ -20,20 +20,33 @@ namespace CatAclysm.UI
         [SerializeField]
         protected Button upArrow;
 
-        public Power Power { get; set; }
-
-        protected virtual void OnEnable()
+        public Power Power 
         {
-            powerName.text = Power.name;
-            rank.text = Power.Rank.ToString();
-            currentRank = Power.Rank;
-            Power.RankChanged += Power_RankChanged;
+            get => power;
+            set
+            {
+                if (power != null)
+                {
+                    power.RankChanged -= Power_RankChanged;
+                }
+                power = value;
+                power.RankChanged += Power_RankChanged;
+                SetTexts();
+            }
+        }
+        private Power power;
+
+        protected void OnEnable()
+        {
             CheckButtonsVisibilities();
         }
 
         private void OnDisable()
         {
-            Power.RankChanged -= Power_RankChanged;
+            if (Power != null)
+            {
+                Power.RankChanged -= Power_RankChanged;
+            }
         }
 
         private void Power_RankChanged(object sender, int e)
@@ -46,6 +59,13 @@ namespace CatAclysm.UI
         protected virtual void CheckButtonsVisibilities()
         {
             downArrow.gameObject.SetActive(currentRank != 0);
+        }
+
+        protected virtual void SetTexts() 
+        {
+            powerName.text = power.name;
+            rank.text = power.Rank.ToString();
+            currentRank = power.Rank;
         }
 
         public abstract void PurchaseNextRank();

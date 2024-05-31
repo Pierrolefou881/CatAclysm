@@ -1,7 +1,6 @@
-using CatAclysm.Behavior.Events;
 using CatAclysm.Character;
+using CatAclysm.UI;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -14,6 +13,8 @@ namespace CatAclysm.Behavior
 
         [SerializeField]
         private UnityEvent<string> skillPointCapitalChanged;
+
+        public List<Skill> Skills => cat.Skills;
 
         private void OnEnable()
         {

@@ -10,22 +10,24 @@ namespace CatAclysm.UI
         [SerializeField]
         private TextMeshProUGUI basePoints;
 
-        [SerializeField]
-        private CatSkillExpositionBehavior skillExpositionBehavior;
-
-        protected override void OnEnable()
-        {
-            base.OnEnable();
-            basePoints.text = (Power as Skill).BaseSkill.ToString();
-        }
+        public CatSkillExpositionBehavior SkillExpositionBehavior { get; set; }
 
         protected override void CheckButtonsVisibilities()
         {
             base.CheckButtonsVisibilities();
-            upArrow.gameObject.SetActive(skillExpositionBehavior.CanPurchaseSkillRank(currentRank + 1, Power.name));
+            if (Power != null)
+            {
+                upArrow.gameObject.SetActive(SkillExpositionBehavior.CanPurchaseSkillRank(currentRank + 1, Power.name));
+            }
         }
 
-        public override void PurchaseNextRank() => skillExpositionBehavior.SetSkillToRank(currentRank + 1, Power.name);
-        public override void RestoreToPreviousRank() => skillExpositionBehavior.SetSkillToRank(currentRank - 1, Power.name);
+        public override void PurchaseNextRank() => SkillExpositionBehavior.SetSkillToRank(currentRank + 1, Power.name);
+        public override void RestoreToPreviousRank() => SkillExpositionBehavior.SetSkillToRank(currentRank - 1, Power.name);
+
+        protected override void SetTexts()
+        {
+            base.SetTexts();
+            basePoints.text = (Power as Skill).BaseSkill.ToString();
+        }
     }
 }

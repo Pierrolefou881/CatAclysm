@@ -36,7 +36,7 @@ namespace CatAclysm.Character
             => CanPurchaseRank(Rank + 1, cat);
 
         public bool CanPurchaseRank(int desiredRank, Cat cat)
-            => desiredRank >= 0 && desiredRank < RankCosts.Count && Rank < desiredRank && RankCosts[desiredRank] - RankCosts[Rank] >= GetPointCapital(cat);
+            => desiredRank >= 0 && desiredRank < RankCosts.Count && Rank < desiredRank && RankCosts[desiredRank] - RankCosts[Rank] <= GetPointCapital(cat);
 
         protected abstract int GetPointCapital(Cat cat);
 
