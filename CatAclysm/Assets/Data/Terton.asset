@@ -85,6 +85,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &-9082365813933740613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Connaissance_Rue
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 7
 --- !u!114 &-9079819062323263439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +119,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 7
+--- !u!114 &-9066270069362389236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Escalade
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 1
 --- !u!114 &-8954948225534313845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +170,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-8880829420405474978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reperer_Trouver
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 8
 --- !u!114 &-8860436027324218618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +340,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &-8669358824705196759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Escalade
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 1
 --- !u!114 &-8601824591547339213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,6 +425,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-8497389550412908388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Enerv.Hum.
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 6
 --- !u!114 &-8451739338687097681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -833,6 +918,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-7917263661176601307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Seduire
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &-7875835791597761523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1241,6 +1343,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &-7398625111926289691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Langage_Humain
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &-7393300596597041679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1292,6 +1411,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 8
   secondaryCharacteristics: 0
+--- !u!114 &-7360494990946821569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Connaissance_Rue
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 7
 --- !u!114 &-7355464795219431825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1359,6 +1495,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 4
+  secondaryCharacteristics: 0
+--- !u!114 &-7324967765824627082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Leadership
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
   secondaryCharacteristics: 0
 --- !u!114 &-7290788336086673039
 MonoBehaviour:
@@ -1529,6 +1682,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 8
+  secondaryCharacteristics: 0
+--- !u!114 &-7157657735545997809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: CultureG
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
   secondaryCharacteristics: 0
 --- !u!114 &-7150499573324827189
 MonoBehaviour:
@@ -1701,6 +1871,40 @@ MonoBehaviour:
   primaryCharacteristics: 4
   secondaryCharacteristics: 1
 --- !u!114 &-6921760818662028973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Orientation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 8
+  secondaryCharacteristics: 0
+--- !u!114 &-6921235836616825578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Odorat
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
+--- !u!114 &-6893841963225585576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2108,6 +2312,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &-6493052362288479217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Saut
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 3
 --- !u!114 &-6465414645721757930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2175,6 +2396,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 1
+  secondaryCharacteristics: 3
+--- !u!114 &-6349307414410308909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Saut
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
   secondaryCharacteristics: 3
 --- !u!114 &-6320696983495251327
 MonoBehaviour:
@@ -3043,6 +3281,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 0
+--- !u!114 &-4982907083952533000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Use_Obj_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 3
+  secondaryCharacteristics: 0
 --- !u!114 &-4919860876069804689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3093,6 +3348,57 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 8
+  secondaryCharacteristics: 0
+--- !u!114 &-4878966513247891197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Usses_Coutumes
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
+--- !u!114 &-4872900571797613033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclam_caresses
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
+--- !u!114 &-4845301424443856637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Discretion
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
   secondaryCharacteristics: 0
 --- !u!114 &-4824591071858695015
 MonoBehaviour:
@@ -3502,6 +3808,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 8
   secondaryCharacteristics: 0
+--- !u!114 &-4492014318914620524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Use_Obj_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 3
+  secondaryCharacteristics: 0
 --- !u!114 &-4440806294020641008
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3638,6 +3961,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &-4318186820376299023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Saut
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 3
 --- !u!114 &-4316295470338002862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3740,6 +4080,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-4200753750770941781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Orientation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 8
+  secondaryCharacteristics: 0
 --- !u!114 &-4187170385938562139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3808,6 +4165,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-4031310437989075152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Leadership
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &-3980359118799006314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3826,6 +4200,23 @@ MonoBehaviour:
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
 --- !u!114 &-3969163424855472707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Seduire
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
+--- !u!114 &-3928089459014948427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3995,6 +4386,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-3747971483479328295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Connaissance_Rue
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 7
 --- !u!114 &-3679616997020920916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4114,6 +4522,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 0
+--- !u!114 &-3461426648596653992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Langage_Humain
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &-3456728047686742105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4131,6 +4556,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &-3451914660533637105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Combat_griffu
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 1
+  secondaryCharacteristics: 3
 --- !u!114 &-3386453028212921446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4301,6 +4743,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &-3063002918236250819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Langage_Humain
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &-3054956035173251495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4590,6 +5049,40 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &-2644054285133413114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
+--- !u!114 &-2580625040637152249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &-2571670882520324538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4708,6 +5201,23 @@ MonoBehaviour:
   rankCosts: 
   baseSkill: 0
   primaryCharacteristics: 0
+  secondaryCharacteristics: 0
+--- !u!114 &-2477285456425115775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclamer_manger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
   secondaryCharacteristics: 0
 --- !u!114 &-2469337036482745972
 MonoBehaviour:
@@ -5406,6 +5916,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &-1609126240612631157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Leadership
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &-1581964222964917017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5865,6 +6392,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &-1084348389676403755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Discretion
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 0
 --- !u!114 &-1061192851109448003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6120,6 +6664,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &-672258679255026529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Use_Obj_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 3
+  secondaryCharacteristics: 0
 --- !u!114 &-652728011390911768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6205,6 +6766,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &-492221298359231966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Saut
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 3
 --- !u!114 &-487973908611927433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6324,6 +6902,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-407979849784047793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Usses_Coutumes
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &-391885756122219558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6341,6 +6936,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &-389819859800683372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Combat_griffu
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 1
+  secondaryCharacteristics: 3
 --- !u!114 &-360382718004989958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6477,6 +7089,40 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &-119702393170275185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Enerv.Hum.
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 6
+--- !u!114 &-104638043910135654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclam_caresses
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &-84977813109465924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6540,12 +7186,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb509c2eeeb56e499ab12eeca19c09c, type: 3}
   m_Name: Terton
   m_EditorClassIdentifier: 
-  catName: "M\xE9ou Ri"
+  catName: Ma Mrrr
   nickName: 
   age: 7
   portrait: {fileID: 0}
   breed: {fileID: 0}
-  lineage: "Oreilles coup\xE9es"
+  lineage: Petite Tete
   reputation: 0
   faction: 
   qualities: []
@@ -6560,25 +7206,25 @@ MonoBehaviour:
   vibrisse: 1
   luck: 1
   skills:
-  - {fileID: -2934844881423518694}
-  - {fileID: 1133879148581885604}
-  - {fileID: -7290788336086673039}
-  - {fileID: -5421870114375956428}
-  - {fileID: 4827178484524874163}
-  - {fileID: 6831778111833474373}
-  - {fileID: 6970062992200556168}
-  - {fileID: -6465414645721757930}
-  - {fileID: -8222241183840679358}
-  - {fileID: 4233837904964109839}
-  - {fileID: 5557426351561134178}
-  - {fileID: -8806870943243781269}
-  - {fileID: 2226263958145001680}
-  - {fileID: 4920712222192426102}
-  - {fileID: 247292506422300241}
-  - {fileID: -8736317584646494265}
-  - {fileID: -5309870649149599876}
-  - {fileID: -5634085074370002152}
-  - {fileID: -4061418251063108622}
+  - {fileID: 8023647586897611849}
+  - {fileID: 3780372219524908459}
+  - {fileID: 4818669824666037057}
+  - {fileID: 5283718425019247044}
+  - {fileID: -4845301424443856637}
+  - {fileID: 5736735372883929987}
+  - {fileID: -8669358824705196759}
+  - {fileID: -7398625111926289691}
+  - {fileID: -4031310437989075152}
+  - {fileID: 3356644244832600947}
+  - {fileID: 2987642094337140478}
+  - {fileID: 5292800762241975789}
+  - {fileID: 7871093917192605144}
+  - {fileID: 9004351189728030939}
+  - {fileID: -8880829420405474978}
+  - {fileID: -6349307414410308909}
+  - {fileID: -7917263661176601307}
+  - {fileID: 6756954051347547069}
+  - {fileID: -4878966513247891197}
   talents: []
   remainingBaseStatPoints: 28
 --- !u!114 &18711880758824716
@@ -6852,6 +7498,23 @@ MonoBehaviour:
   rankCosts: 
   baseSkill: 0
   primaryCharacteristics: 0
+  secondaryCharacteristics: 0
+--- !u!114 &420256406895484263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Usses_Coutumes
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
   secondaryCharacteristics: 0
 --- !u!114 &545214072353431876
 MonoBehaviour:
@@ -7159,6 +7822,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &920778124790726443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Odorat
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &926505267150029673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7363,6 +8043,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &1154735393066571006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Escalade
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 1
 --- !u!114 &1185095169225762540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7516,6 +8213,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &1357679671733566522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Odorat
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &1397376007265683276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7669,6 +8383,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &1936147403637532136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &1941297200269159623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7685,6 +8416,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 6
+  secondaryCharacteristics: 8
+--- !u!114 &1964408377837952327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reperer_Trouver
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
   secondaryCharacteristics: 8
 --- !u!114 &1971376609791865901
 MonoBehaviour:
@@ -7804,6 +8552,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 7
+  secondaryCharacteristics: 0
+--- !u!114 &2203292608661693175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Discretion
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
   secondaryCharacteristics: 0
 --- !u!114 &2215930467802387012
 MonoBehaviour:
@@ -8179,6 +8944,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &2633177982790029031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &2637587231341338426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8536,6 +9318,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &2987642094337140478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Orientation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 8
+  secondaryCharacteristics: 0
 --- !u!114 &2993695500886821476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8570,6 +9369,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &3007911020640781593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclamer_manger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &3021022007484836525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8598,6 +9414,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
   m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
+--- !u!114 &3094147008546261521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: CultureG
   m_EditorClassIdentifier: 
   rank: 0
   rankCosts: 000000000100000002000000040000000800000010000000
@@ -8655,6 +9488,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &3149800320182878276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reperer_Trouver
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 8
 --- !u!114 &3165739675588947904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8723,6 +9573,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 8
+--- !u!114 &3289424941726425629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Seduire
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &3305577565696077996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8757,6 +9624,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 6
+--- !u!114 &3356644244832600947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Odorat
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &3374655196222370080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8893,6 +9777,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &3684354883449121653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: CultureG
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &3705813668300340042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8927,6 +9828,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 0
   secondaryCharacteristics: 0
+--- !u!114 &3780372219524908459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Combat_griffu
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 1
+  secondaryCharacteristics: 3
 --- !u!114 &3830600408766238246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8961,6 +9879,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &3969390995991720768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Seduire
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &3972258572925127345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9148,6 +10083,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &4253792902170920162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Escalade
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 1
 --- !u!114 &4272985747135431371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9284,6 +10236,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &4445926367443130730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Enerv.Hum.
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 6
 --- !u!114 &4464895566304404282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9488,6 +10457,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 8
+--- !u!114 &4713505092605875309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclamer_manger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &4714269526468650061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9556,6 +10542,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 1
+--- !u!114 &4818669824666037057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Connaissance_Rue
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 7
 --- !u!114 &4827178484524874163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9913,6 +10916,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &5283718425019247044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: CultureG
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &5289971506652871165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9930,6 +10950,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &5292800762241975789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &5305799228543077326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10168,6 +11205,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 1
+--- !u!114 &5606042175797002552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &5620975150815353196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10253,6 +11307,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &5736735372883929987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Enerv.Hum.
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 6
 --- !u!114 &5745460998104713295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10491,6 +11562,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &6032000641103064657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Orientation
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 8
+  secondaryCharacteristics: 0
 --- !u!114 &6068193224429148402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10746,6 +11834,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &6400466464030010755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Discretion
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 4
+  secondaryCharacteristics: 0
 --- !u!114 &6424881224075538292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10813,6 +11918,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 4
+  secondaryCharacteristics: 0
+--- !u!114 &6494770479203289084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Langage_Humain
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
   secondaryCharacteristics: 0
 --- !u!114 &6516839871025989394
 MonoBehaviour:
@@ -10933,6 +12055,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 8
+--- !u!114 &6756954051347547069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Use_Obj_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 3
+  secondaryCharacteristics: 0
 --- !u!114 &6764798761715482234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11256,6 +12395,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 3
   secondaryCharacteristics: 0
+--- !u!114 &7081605784776875944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclam_caresses
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
+  secondaryCharacteristics: 0
 --- !u!114 &7085353292388859085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11289,6 +12445,23 @@ MonoBehaviour:
   rankCosts: 
   baseSkill: 0
   primaryCharacteristics: 0
+  secondaryCharacteristics: 0
+--- !u!114 &7145720687091211477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Leadership
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
   secondaryCharacteristics: 0
 --- !u!114 &7175642911042648410
 MonoBehaviour:
@@ -11460,6 +12633,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 5
   secondaryCharacteristics: 0
+--- !u!114 &7547365759351040467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Psycho_Hum
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &7548454132390204361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11579,6 +12769,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 1
   secondaryCharacteristics: 3
+--- !u!114 &7698379348787837960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Combat_griffu
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 1
+  secondaryCharacteristics: 3
 --- !u!114 &7714327226411231403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11612,6 +12819,23 @@ MonoBehaviour:
   rankCosts: 000000000100000002000000040000000800000010000000
   baseSkill: 0
   primaryCharacteristics: 6
+  secondaryCharacteristics: 0
+--- !u!114 &7871093917192605144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclam_caresses
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 7
   secondaryCharacteristics: 0
 --- !u!114 &7894104146813277318
 MonoBehaviour:
@@ -11749,6 +12973,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 0
+--- !u!114 &8023647586897611849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Chasse
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 8
 --- !u!114 &8034262206049434440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11834,6 +13075,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 6
   secondaryCharacteristics: 0
+--- !u!114 &8116677212128158015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reperer_Trouver
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 8
 --- !u!114 &8136802504154000472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12378,6 +13636,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 7
   secondaryCharacteristics: 0
+--- !u!114 &8912351323193670824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Usses_Coutumes
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 6
+  secondaryCharacteristics: 0
 --- !u!114 &8923593466150745112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12463,6 +13738,23 @@ MonoBehaviour:
   baseSkill: 0
   primaryCharacteristics: 4
   secondaryCharacteristics: 3
+--- !u!114 &9004351189728030939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c0cae434b840b4a8b1fbe8d0318f86, type: 3}
+  m_Name: Reclamer_manger
+  m_EditorClassIdentifier: 
+  rank: 0
+  rankCosts: 000000000100000002000000040000000800000010000000
+  baseSkill: 0
+  primaryCharacteristics: 5
+  secondaryCharacteristics: 0
 --- !u!114 &9039760014474988976
 MonoBehaviour:
   m_ObjectHideFlags: 0
